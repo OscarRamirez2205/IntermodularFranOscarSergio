@@ -11,14 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ciclosCentro', function(BluePrint $tabla) {
+        Schema::create('servicios', function(Blueprint $tabla){
             $tabla->id();
-            $tabla->unsignedBigInteger('id_centro');
-            $tabla->unsignedBigInteger('id_ciclo');
+            $tabla->string('nombre');
+            $tabla->string('descripcion');
             $tabla->timestamps();
-
-            $tabla->foreign('id_centro')->references('id')->on('centros')->onDelete('cascade');
-            $tabla->foreign('id_ciclo')->references('id')->on('ciclos')->onDelete('cascade');
         });
     }
 
@@ -27,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('ciclosCentro');
+        Schema::dropIfExists('servicios');
     }
 };
