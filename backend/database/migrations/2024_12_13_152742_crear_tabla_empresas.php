@@ -22,9 +22,9 @@ return new class extends Migration
             $tabla->string('cif')->unique();
             $tabla->string('provincia');
             $tabla->string('poblacion');
-            $tabla->string('usuario');
+            $tabla->timestamps();
 
-            $tabla->foreign('usuario')->references('id')->on('usuarios')->onDelete('cascade');
+
         });
     }
 
