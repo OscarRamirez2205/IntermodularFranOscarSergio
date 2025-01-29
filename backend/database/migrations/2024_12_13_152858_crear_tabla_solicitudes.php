@@ -15,6 +15,7 @@ return new class extends Migration
             $tabla->id();
             $tabla->string('idEmpresa');
             $tabla->string('idCentro');
+            $tabla->timestamps();
         });
     }
 

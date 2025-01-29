@@ -20,6 +20,7 @@ return new class extends Migration
             $tabla->string('telefono');
             $tabla->string('poblacion');
             $tabla->string('provincia');
+            $tabla->timestamps();
         });
     }
 
