@@ -11,11 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ciclos', function(Blueprint $tabla){
-            $tabla->id();
-            $tabla->string('nombre');
-            $tabla->timestamps();
-        });
+        //
     }
 
     /**
@@ -23,6 +19,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('ciclos');
+        Schema::dropIfExists('tokens');
     }
 };

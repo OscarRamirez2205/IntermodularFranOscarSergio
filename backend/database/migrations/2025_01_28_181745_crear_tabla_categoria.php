@@ -11,7 +11,12 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('categorias', function(Blueprint $tabla){
+            $tabla->id();
+            $tabla->string('nombre');
+            $tabla->string('descripcion');
+            $tabla->timestamps();
+        });
     }
 
     /**
@@ -19,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('categorias');
     }
 };

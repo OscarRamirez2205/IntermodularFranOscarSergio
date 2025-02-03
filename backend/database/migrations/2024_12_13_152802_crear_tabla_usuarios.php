@@ -18,8 +18,11 @@ return new class extends Migration
             $tabla->string('email');
             $tabla->string('password');
             $tabla->string('centro');
+            $tabla->string('empresa');
+            $tabla->timestamps();
 
             $tabla->foreign('centro')->references('id')->on('centros')->onDelete('cascade');
+            $tabla->foreign('empresa')->references('id')->on('empresas')->onDelete('cascade');
         });
     }
 

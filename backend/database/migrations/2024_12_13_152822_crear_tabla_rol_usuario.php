@@ -15,6 +15,7 @@ return new class extends Migration
             $tabla->id();
             $tabla->unsignedBigInteger('id_rol');
             $tabla->unsignedBigInteger('id_usuario');
+            $tabla->timestamps();
 
             $tabla->foreign('id_rol')->references('id')->on('roles')->onDelete('cascade');
             $tabla->foreign('id_usuario')->references('id')->on('usuarios')->onDelete('cascade');
