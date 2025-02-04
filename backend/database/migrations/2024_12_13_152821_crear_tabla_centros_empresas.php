@@ -11,14 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('usuarios', function(BluePrint $tabla) {
+        Schema::create('centros_empresas', function(BluePrint $tabla) {
             $tabla->id();
-            $tabla->string('nombre');
-            $tabla->string('NIF')->unique();
-            $tabla->string('email');
-            $tabla->string('password');
             $tabla->unsignedBigInteger('id_centro');
             $tabla->unsignedBigInteger('id_empresa');
+            $tabla->string('nota');
             $tabla->timestamps();
 
             $tabla->foreign('id_centro')->references('id')->on('centros')->onDelete('cascade');
@@ -31,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('usuarios');
+        Schema::dropIfExists('notas');
     }
 };
