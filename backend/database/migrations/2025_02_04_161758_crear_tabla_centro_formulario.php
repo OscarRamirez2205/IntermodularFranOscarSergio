@@ -11,15 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('notas', function(BluePrint $tabla) {
+        Schema::create('centroFormulario', function(BluePrint $tabla) {
             $tabla->id();
+            $tabla->unsignedBigInteger('id_formulario');
             $tabla->unsignedBigInteger('id_centro');
-            $tabla->unsignedBigInteger('id_empresa');
-            $tabla->string('nota');
             $tabla->timestamps();
 
+            $tabla->foreign('id_formulario')->references('id')->on('preguntas')->onDelete('cascade');
             $tabla->foreign('id_centro')->references('id')->on('centros')->onDelete('cascade');
-            $tabla->foreign('id_empresa')->references('id')->on('empresas')->onDelete('cascade');
         });
     }
 
@@ -28,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('notas');
+        Schema::dropIfExists('centroFormulario');
     }
 };
