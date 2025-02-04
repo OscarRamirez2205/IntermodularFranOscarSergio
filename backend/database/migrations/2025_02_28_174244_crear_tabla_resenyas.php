@@ -15,7 +15,10 @@ return new class extends Migration
             $tabla->id();
             $tabla->date('fecha_resena');
             $tabla->integer('valoracion');
+            $tabla->unsignedBigInteger('id_pregunta_formulario');
             $tabla->timestamps();
+
+            $tabla->foreign('id_pregunta_formulario')->references('id')->on('preguntaFormulario')->onDelete('cascade');
         });
     }
 

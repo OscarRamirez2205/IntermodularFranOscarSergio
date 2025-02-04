@@ -11,7 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('tokens', function(Blueprint $tabla){
+            $tabla->id();
+            $tabla->string('token');
+            $tabla->timestamps();
+        });
     }
 
     /**
