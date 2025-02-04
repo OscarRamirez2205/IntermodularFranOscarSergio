@@ -13,9 +13,10 @@ return new class extends Migration
     {
        Schema::create('solicitudes', function(Blueprint $tabla){
             $tabla->id();
-            $tabla->string('idEmpresa');
-            $tabla->string('idCentro');
+            $tabla->unsignedBigInteger('id_centro_empresa');
             $tabla->timestamps();
+
+            $tabla->foreign('id_centro_empresa')->references('id')->on('centros_empresas')->onDelete('cascade');
         });
     }
 
