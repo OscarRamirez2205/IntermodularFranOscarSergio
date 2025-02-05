@@ -1,0 +1,85 @@
+.company-card {
+  transition: transform 0.2s ease-in-out;
+  border: none;
+  background: #ffffff;
+  overflow: hidden;
+}
+.company-card:hover {
+  transform: translateY(-5px);
+}
+
+.company-image {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.7);
+}
+
+.company-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.company-title {
+  color: white;
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.info-section i {
+  font-size: 1.2rem;
+  min-width: 24px;
+}
+.info-section p {
+  line-height: 1.4;
+}
+.info-section .text-muted {
+  font-size: 0.9rem;
+}
+
+.vacantes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  gap: 10px;
+}
+
+.vacante-item {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.vacante-item .year {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-bottom: 4px;
+}
+.vacante-item .count {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.progress {
+  border-radius: 10px;
+  background-color: #e9ecef;
+}
+
+.badge {
+  font-weight: 500;
+  padding: 5px 10px;
+}/*# sourceMappingURL=company.component.css.map */
