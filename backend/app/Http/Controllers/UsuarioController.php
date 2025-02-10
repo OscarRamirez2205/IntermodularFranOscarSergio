@@ -9,8 +9,8 @@ class UsuarioController extends Controller
 {
     public function index()
     {
-        $usuarios = Usuario::all();
-        return view('usuarios.index', compact('usuarios'));
+        $usuarios = Usuario::paginate(20);
+        return view('usuarios', compact('usuarios'));
     }
 
     public function show($id)
