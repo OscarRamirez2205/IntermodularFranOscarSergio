@@ -7,10 +7,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('inicio')}}">Inicio</a>
+                    <a class="nav-link" href="">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('empresas')}}">Empresas</a>
+                    <a class="nav-link" href="}}">Empresas</a>
                 </li>
             </ul>
         </div>
