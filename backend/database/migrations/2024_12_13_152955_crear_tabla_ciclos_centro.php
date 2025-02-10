@@ -15,6 +15,7 @@ return new class extends Migration
             $tabla->id();
             $tabla->unsignedBigInteger('id_centro');
             $tabla->unsignedBigInteger('id_ciclo');
+            $tabla->timestamps();
 
             $tabla->foreign('id_centro')->references('id')->on('centros')->onDelete('cascade');
             $tabla->foreign('id_ciclo')->references('id')->on('ciclos')->onDelete('cascade');
@@ -26,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('ciclosCentro');
     }
 };

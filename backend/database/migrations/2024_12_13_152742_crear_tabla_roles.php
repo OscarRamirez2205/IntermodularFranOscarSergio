@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('roles', function(BluePrint $tabla) {
             $tabla->id();
             $tabla->string('nombre')->unique();
+            $tabla->timestamps();
         });
     }
 

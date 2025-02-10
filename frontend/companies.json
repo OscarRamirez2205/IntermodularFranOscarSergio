@@ -1,0 +1,5367 @@
+[
+    {
+        "id": "f3be593c-75b7-4487-a17b-4fed345f4b89",
+        "name": "Alanis y Casas",
+        "phone": "942.466.681",
+        "email": "Enrique.RuelasCaban4@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Ràfol d'Almúnia (El)",
+            "street": "Bajada Octavio Valencia 9",
+            "position": {
+                "lat": 40.714,
+                "lng": -0.6209
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/5oKFAmXFDP/300/180?blur=4",
+        "categories": [
+            "Administración de sistemas",
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "Linux",
+            "Cisco",
+            "Windows",
+            "Personal",
+            "Gestión",
+            "Administrativo",
+            "Diseño",
+            "Java Spring",
+            "Frontend",
+            "Tailwind",
+            "Vue",
+            "Bootstrap",
+            "React",
+            "Django",
+            "Laravel",
+            "Angular",
+            "Backend"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 2
+            },
+            {
+                "year": 2022,
+                "count": 9
+            },
+            {
+                "year": 2023,
+                "count": 4
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 53.68,
+            "student": 31.3
+        }
+    },
+    {
+        "id": "56c5fd20-14a2-4b35-a472-b29de4c6bde7",
+        "name": "Alarcón Hermanos",
+        "phone": "936 442 320",
+        "email": "Claudia_ZepedaMerino12@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Sueras/Suera",
+            "street": "Pasaje Carla, 11",
+            "position": {
+                "lat": 40.0044,
+                "lng": -1.1697
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/IC5p6/300/180?grayscale&blur=9",
+        "categories": [
+            "Administración de sistemas",
+            "Programación web"
+        ],
+        "services": [
+            "Windows",
+            "Cisco",
+            "Redes",
+            "Linux",
+            ".NET",
+            "Laravel",
+            "Frontend",
+            "Ruby on Rails",
+            "express",
+            "Vue",
+            "Bootstrap",
+            "Angular",
+            "React",
+            "Django",
+            "Backend"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 4
+            }
+        ],
+        "score": {
+            "teacher": 29.92,
+            "student": 22.6
+        }
+    },
+    {
+        "id": "e534cc13-1727-4220-8425-928e27c6f089",
+        "name": "Alonso Huerta Hermanos",
+        "phone": "952040130",
+        "email": "Magdalena_DelgadoRangel@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Algimia de Alfara",
+            "street": "Rincón Manuela s/n.",
+            "position": {
+                "lat": 40.0407,
+                "lng": -1.0199
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/OxHdRCuSs/300/180?grayscale&blur=8",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Ruby on Rails",
+            "Diseño",
+            "Vue",
+            "Tailwind",
+            "Laravel",
+            "Angular",
+            "Personal",
+            "Café",
+            "Finanzas",
+            "Gestión",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 3
+            },
+            {
+                "year": 2022,
+                "count": 2
+            },
+            {
+                "year": 2023,
+                "count": 8
+            },
+            {
+                "year": 2024,
+                "count": 8
+            }
+        ],
+        "score": {
+            "teacher": 60.19,
+            "student": 10.47
+        }
+    },
+    {
+        "id": "f5809740-b595-452c-854b-8d0eade5b7aa",
+        "name": "Alonzo Varela S.A.",
+        "phone": "993 910 991",
+        "email": "Claudia10@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Busot",
+            "street": "Colegio Carolina 1",
+            "position": {
+                "lat": 39.9018,
+                "lng": -0.8022
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/VJ79xgZu73/300/180?blur=9",
+        "categories": [
+            "Administración de empresas",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Café",
+            "Gestión",
+            "Finanzas",
+            "Personal",
+            ".NET",
+            "Java Spring",
+            "Vue",
+            "Windows",
+            "Cisco",
+            "Linux",
+            "Redes",
+            "Windows Server"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 9
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 93.64,
+            "student": 61.67
+        }
+    },
+    {
+        "id": "102d7a11-118c-40b5-9872-031802a9b6bc",
+        "name": "Archuleta y Archuleta",
+        "phone": "909-578-427",
+        "email": "Eva_PachecoReynoso38@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Teresa de Cofrentes",
+            "street": "Partida Reina 7",
+            "position": {
+                "lat": 38.0648,
+                "lng": 0.4309
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/bAdPC4/300/180",
+        "categories": [
+            "Administración de empresas",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Gestión",
+            "express",
+            "Django",
+            "Ruby on Rails",
+            "Tailwind",
+            "Frontend",
+            "Backend",
+            "Windows Server",
+            "Cisco",
+            "Windows",
+            "Linux",
+            "Redes"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 5
+            },
+            {
+                "year": 2021,
+                "count": 3
+            },
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 3
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 55.38,
+            "student": 14.7
+        }
+    },
+    {
+        "id": "40451c87-2d87-4bc7-9a5a-dc67c812d0e6",
+        "name": "Arellano Hermanos",
+        "phone": "928-660-084",
+        "email": "Diego.BustamantePalomo4@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Beniflá",
+            "street": "Polígono Conchita Báez, 2",
+            "position": {
+                "lat": 39.2402,
+                "lng": -1.4892
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/TvCEGSeWu/300/180?blur=7",
+        "categories": [
+            "Administración de sistemas",
+            "Programación multimedia",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Windows Server",
+            "Linux",
+            "Escritorio",
+            "Linux",
+            "C/C++",
+            "C#",
+            "Go",
+            "Rust",
+            "Android",
+            "Dispositivos móviles",
+            "Personal",
+            "Finanzas",
+            "Café"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 41.54,
+            "student": 67.57
+        }
+    },
+    {
+        "id": "5303b0e4-2484-4771-8087-e40e37362476",
+        "name": "Armijo Treviño Hermanos",
+        "phone": "905.384.698",
+        "email": "Dolores_AbregoCoronado@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Eslida",
+            "street": "Barrio Virginia Nevárez s/n.",
+            "position": {
+                "lat": 40.4736,
+                "lng": -1.0903
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/6OCsO27b/300/180?grayscale&blur=4",
+        "categories": [
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Windows",
+            "Linux",
+            "Cisco",
+            "Redes"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 8
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 49.72,
+            "student": 81.52
+        }
+    },
+    {
+        "id": "f5235b63-849c-412b-86a0-c8989d467e87",
+        "name": "Arreola, Estrada y Santana Asociados",
+        "phone": "964399834",
+        "email": "Sergio.RojasChavez@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Villanueva de Viver",
+            "street": "Camino Blanca 4",
+            "position": {
+                "lat": 40.1029,
+                "lng": -0.7286
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/I1MSkmw0Se/300/180?grayscale&blur=9",
+        "categories": [
+            "Administración de empresas"
+        ],
+        "services": [
+            "Personal",
+            "Finanzas",
+            "Café",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 2
+            },
+            {
+                "year": 2021,
+                "count": 7
+            },
+            {
+                "year": 2022,
+                "count": 9
+            },
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 37.56,
+            "student": 97.51
+        }
+    },
+    {
+        "id": "5439c422-0b0e-44cd-9279-96346567f15b",
+        "name": "Arriaga Avilés e Hijos",
+        "phone": "943 576 301",
+        "email": "Felipe.LermaAnguiano@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Geldo",
+            "street": "Entrada Claudia Urrutia 8",
+            "position": {
+                "lat": 40.0553,
+                "lng": -0.1809
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/hIXDBsCv/300/180?blur=8",
+        "categories": [
+            "Administración de sistemas",
+            "Administración de empresas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Windows Server",
+            "Finanzas",
+            "Gestión",
+            "Dispositivos móviles",
+            "Windows",
+            "Java",
+            "Rust",
+            "C/C++",
+            "C#",
+            "IOs",
+            "Go",
+            "MacOS",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 4
+            },
+            {
+                "year": 2021,
+                "count": 7
+            },
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 4
+            }
+        ],
+        "score": {
+            "teacher": 31.69,
+            "student": 15.36
+        }
+    },
+    {
+        "id": "de191231-072d-4b47-9968-4856baeb460a",
+        "name": "Arteaga S.L.",
+        "phone": "964316581",
+        "email": "Rodrigo_SeguraMateo@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Benasau",
+            "street": "Senda Virginia Naranjo 5",
+            "position": {
+                "lat": 39.5626,
+                "lng": 0.3279
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/8OFxWxmjWw/300/180",
+        "categories": [
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "Administrativo",
+            "Personal",
+            "Café",
+            "Finanzas",
+            "Gestión",
+            "Ruby on Rails",
+            "Angular"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 9
+            },
+            {
+                "year": 2021,
+                "count": 2
+            },
+            {
+                "year": 2022,
+                "count": 3
+            },
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 5
+            }
+        ],
+        "score": {
+            "teacher": 89.73,
+            "student": 79.82
+        }
+    },
+    {
+        "id": "1f15ba91-0abd-4de9-994d-3c7b9bb30c09",
+        "name": "Ayala y Farías",
+        "phone": "915 764 505",
+        "email": "JuanRamon.ZelayaParra65@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Sant Mateu",
+            "street": "Rampa Horacio Urbina s/n.",
+            "position": {
+                "lat": 40.3074,
+                "lng": 0.1657
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/Tzx77I03/300/180?grayscale&blur=9",
+        "categories": [
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "Café",
+            "Administrativo",
+            "Bootstrap",
+            "Backend"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 4
+            }
+        ],
+        "score": {
+            "teacher": 49.39,
+            "student": 68.54
+        }
+    },
+    {
+        "id": "c18a972c-2cac-44c1-ac37-8bdc486eff2d",
+        "name": "Banda y Benavides",
+        "phone": "927.707.951",
+        "email": "Soledad12@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Jávea/Xàbia",
+            "street": "Ferrocarril Juan Ramón Gaona 81",
+            "position": {
+                "lat": 38.7505,
+                "lng": -0.2508
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/Zq07xd/300/180?grayscale&blur=4",
+        "categories": [
+            "Programación multimedia",
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "C/C++",
+            "Rust",
+            "Java",
+            "Python",
+            "C#",
+            "Windows",
+            "IOs",
+            "Go",
+            "Linux",
+            "Escritorio",
+            "Dispositivos móviles",
+            "MacOS",
+            "express",
+            "React",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 1.2,
+            "student": 57.48
+        }
+    },
+    {
+        "id": "a7e33e94-cb56-4e09-a803-a032fc0e7910",
+        "name": "Barreto Rael Hermanos",
+        "phone": "925199111",
+        "email": "Susana.RuelasPulido36@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Azuébar",
+            "street": "Lugar Eduardo Guerra s/n.",
+            "position": {
+                "lat": 38.1209,
+                "lng": -0.8654
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/fsIOO7Efp/300/180?grayscale&blur=10",
+        "categories": [
+            "Programación multimedia",
+            "Administración de empresas",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Rust",
+            "Android",
+            "Python",
+            "MacOS",
+            "Java",
+            "C/C++",
+            "Dispositivos móviles",
+            "C#",
+            "Personal",
+            "Finanzas",
+            "Café",
+            "Administrativo",
+            "Gestión",
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 10
+            },
+            {
+                "year": 2022,
+                "count": 6
+            },
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 94.29,
+            "student": 84.4
+        }
+    },
+    {
+        "id": "07719508-9eab-4f15-9d66-5334a145cdb3",
+        "name": "Benavídez, Valles y Olvera Asociados",
+        "phone": "995792439",
+        "email": "Salvador39@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Ráfol de Salem",
+            "street": "Cuesta Alfredo, 8",
+            "position": {
+                "lat": 38.7689,
+                "lng": 0.2406
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/Ov6Qc/300/180?grayscale&blur=5",
+        "categories": [
+            "Programación multimedia"
+        ],
+        "services": [
+            "IOs",
+            "Linux",
+            "MacOS",
+            "Go",
+            "Android",
+            "Rust"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 84.83,
+            "student": 82.76
+        }
+    },
+    {
+        "id": "34590504-e2da-4367-ba8d-fbfecf461d8c",
+        "name": "Bernal Palacios Hermanos",
+        "phone": "999629881",
+        "email": "Conchita_NevarezHolguin@gmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Villalonga",
+            "street": "Terrenos Vicente s/n.",
+            "position": {
+                "lat": 40.5324,
+                "lng": -1.2741
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/GsPHhbWW/300/180?blur=6",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Tailwind",
+            ".NET",
+            "Diseño",
+            "Backend",
+            "Finanzas",
+            "Gestión",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 1.8,
+            "student": 35.21
+        }
+    },
+    {
+        "id": "55fc9233-2b16-46d3-82b7-2a38bc19582d",
+        "name": "Bonilla Gaona Hermanos",
+        "phone": "950.940.059",
+        "email": "Hugo8@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Teulada",
+            "street": "Barranco Samuel Aranda 28",
+            "position": {
+                "lat": 39.5687,
+                "lng": -0.1621
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/DH7I8qf/300/180?grayscale&blur=1",
+        "categories": [
+            "Programación multimedia",
+            "Programación web"
+        ],
+        "services": [
+            "Go",
+            "Linux",
+            "Windows",
+            "C#",
+            "Rust",
+            "express",
+            "Ruby on Rails",
+            "Diseño",
+            "Laravel",
+            "Bootstrap",
+            "Java Spring"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 18.59,
+            "student": 60.47
+        }
+    },
+    {
+        "id": "b97e1047-56ce-4bd4-86de-0fb75e6ce07e",
+        "name": "Brito Zaragoza e Hijos",
+        "phone": "915 106 326",
+        "email": "Jesus_SaenzOlvera72@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Benidorm",
+            "street": "Carretera Homero Elizondo 80",
+            "position": {
+                "lat": 40.1637,
+                "lng": -0.3189
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/AZRRFxKO/300/180?grayscale",
+        "categories": [
+            "Administración de sistemas",
+            "Programación web"
+        ],
+        "services": [
+            "Windows Server",
+            "Windows",
+            "Linux",
+            "Redes",
+            "Backend",
+            "Frontend",
+            "Django",
+            "Bootstrap",
+            "Angular",
+            "Tailwind",
+            "Vue",
+            "React",
+            "Diseño",
+            "express",
+            ".NET"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 10
+            },
+            {
+                "year": 2021,
+                "count": 4
+            },
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 3
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 42.01,
+            "student": 8.34
+        }
+    },
+    {
+        "id": "8d1eec8a-6835-458a-b471-0e2c4302f30b",
+        "name": "Carbajal Díaz S.L.",
+        "phone": "927 172 622",
+        "email": "JoseMaria.SoriaSandoval@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Monforte del Cid",
+            "street": "Gran Subida Elena Serrato 7",
+            "position": {
+                "lat": 38.3482,
+                "lng": 0.1547
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/hdGNxV/300/180?blur=4",
+        "categories": [
+            "Programación multimedia",
+            "Programación web"
+        ],
+        "services": [
+            "Dispositivos móviles",
+            "Go",
+            "Rust",
+            "C/C++",
+            "Linux",
+            "MacOS",
+            "Python",
+            "Escritorio",
+            "Android",
+            "IOs",
+            "C#",
+            "Java",
+            "Windows",
+            ".NET"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 4
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 6.95,
+            "student": 40.21
+        }
+    },
+    {
+        "id": "67e46d45-0031-43a4-8560-c408c569dcb4",
+        "name": "Cardona y Puga",
+        "phone": "999 930 349",
+        "email": "Mario.MartinezGuzman44@gmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Andilla",
+            "street": "Partida Rosario Fuentes, 3",
+            "position": {
+                "lat": 40.498,
+                "lng": -0.0273
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/rxo0o/300/180?blur=9",
+        "categories": [
+            "Administración de empresas",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Administrativo",
+            "Personal",
+            "Café",
+            "Finanzas",
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 34.25,
+            "student": 20.99
+        }
+    },
+    {
+        "id": "84633a6d-4daf-42a1-86e7-83b482c64c60",
+        "name": "Carrillo Gaona S.A.",
+        "phone": "925.808.754",
+        "email": "Gilberto99@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Busot",
+            "street": "Escalinata Ana Luisa Rentería s/n.",
+            "position": {
+                "lat": 38.8756,
+                "lng": -0.662
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/PYO2D3/300/180?blur=1",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Ruby on Rails",
+            "Java Spring",
+            "Frontend",
+            "Laravel",
+            "Tailwind",
+            "Backend",
+            "Vue",
+            "React",
+            "Angular",
+            "Django",
+            "Diseño",
+            "Bootstrap",
+            "express",
+            ".NET",
+            "Administrativo",
+            "Finanzas",
+            "Gestión"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 47.49,
+            "student": 82.04
+        }
+    },
+    {
+        "id": "348753e0-aa73-4dcc-8b2f-2005d17a9ecb",
+        "name": "Carrillo, Hinojosa y Banda Asociados",
+        "phone": "988-683-737",
+        "email": "Manuela.EnriquezMoya@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Traiguera",
+            "street": "Subida Natalia, 6",
+            "position": {
+                "lat": 38.6592,
+                "lng": 0.0934
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/13iHUMZ/300/180?grayscale&blur=4",
+        "categories": [
+            "Programación multimedia",
+            "Programación web"
+        ],
+        "services": [
+            "Android",
+            "Escritorio",
+            "MacOS",
+            "C/C++",
+            "C#",
+            "Java",
+            "Linux",
+            "Python",
+            "Backend",
+            "Angular",
+            "Tailwind",
+            "Vue",
+            ".NET",
+            "Frontend",
+            "React",
+            "Bootstrap",
+            "Diseño",
+            "Laravel",
+            "Ruby on Rails",
+            "express",
+            "Django",
+            "Java Spring"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 15.92,
+            "student": 35.42
+        }
+    },
+    {
+        "id": "745aa638-0326-4615-abe6-a46a4b1ce39c",
+        "name": "Carrión, Cervantes y Figueroa Asociados",
+        "phone": "936-676-108",
+        "email": "Mariana_RamirezPeralta86@gmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Higueruelas",
+            "street": "Quinta María del Carmen 57",
+            "position": {
+                "lat": 39.2736,
+                "lng": -0.2791
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/A0Y0p4QBE/300/180?blur=8",
+        "categories": [
+            "Programación web"
+        ],
+        "services": [
+            "Tailwind",
+            "Angular",
+            "express",
+            "Vue",
+            "Laravel",
+            "React",
+            "Frontend",
+            "Java Spring"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 1
+            },
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 4
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 44.5,
+            "student": 28.98
+        }
+    },
+    {
+        "id": "ee27010f-36d2-4617-80dc-c677858a111b",
+        "name": "Carrión, Espinosa y Almaráz Asociados",
+        "phone": "949.573.529",
+        "email": "Ariadna.LongoriaZelaya69@gmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Torrent",
+            "street": "Vía Pública Juan Carlos 33",
+            "position": {
+                "lat": 39.7177,
+                "lng": -0.5998
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/fXlUNmUlC/300/180?grayscale",
+        "categories": [
+            "Programación multimedia"
+        ],
+        "services": [
+            "MacOS",
+            "Android",
+            "IOs",
+            "Java",
+            "Linux",
+            "Dispositivos móviles"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 9
+            },
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 12.92,
+            "student": 30.42
+        }
+    },
+    {
+        "id": "37e85653-4666-4fd0-abb1-a90bb18507b2",
+        "name": "Collado S.L.",
+        "phone": "937325132",
+        "email": "Rafael_CantuAlfaro44@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Catral",
+            "street": "Riera Sergio 5",
+            "position": {
+                "lat": 40.2727,
+                "lng": -1.0601
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/p94A7/300/180?blur=9",
+        "categories": [
+            "Programación web"
+        ],
+        "services": [
+            "Angular",
+            ".NET",
+            "Vue",
+            "Bootstrap",
+            "express",
+            "Diseño"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 28.91,
+            "student": 68.33
+        }
+    },
+    {
+        "id": "8a31b397-1ee9-4805-8356-0febc97b576a",
+        "name": "Córdova, Benavídez y Aragón Asociados",
+        "phone": "952-065-552",
+        "email": "Maricarmen.AbreuSantacruz@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Cotes",
+            "street": "Jardines Daniel Acosta s/n.",
+            "position": {
+                "lat": 39.0703,
+                "lng": -0.6678
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/vDyRfZWkDX/300/180?grayscale&blur=9",
+        "categories": [
+            "Programación multimedia",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Rust",
+            "Dispositivos móviles",
+            "Linux",
+            "Cisco",
+            "Redes",
+            "Windows",
+            "Windows Server"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 88.77,
+            "student": 2.59
+        }
+    },
+    {
+        "id": "b51e0862-5dd5-4e76-bb8a-637b57778819",
+        "name": "Córdova, Córdova y Sierra Asociados",
+        "phone": "997 866 038",
+        "email": "Benjamin.AlonsoValdivia@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Alcalalí",
+            "street": "Camino Elena, 5",
+            "position": {
+                "lat": 40.4303,
+                "lng": 0.2504
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/g6qK0cheXw/300/180?blur=4",
+        "categories": [
+            "Administración de empresas",
+            "Programación multimedia",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Finanzas",
+            "Gestión",
+            "Café",
+            "Administrativo",
+            "Personal",
+            "Dispositivos móviles",
+            "Rust",
+            "Windows",
+            "C/C++",
+            "C#",
+            "Java",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 77.75,
+            "student": 68.12
+        }
+    },
+    {
+        "id": "bdb426e5-f0ac-44d1-a95b-01f795ffa02d",
+        "name": "Cornejo Ramos e Hijos",
+        "phone": "944316637",
+        "email": "Guadalupe_LomeliSegovia86@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Agost",
+            "street": "Torrente José Eduardo Oquendo 18",
+            "position": {
+                "lat": 39.1622,
+                "lng": -0.3279
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/9wlFyKq/300/180?blur=7",
+        "categories": [
+            "Administración de empresas",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Personal",
+            "Administrativo",
+            "Finanzas",
+            "Gestión",
+            "Café",
+            "Java Spring",
+            "Django",
+            "Diseño",
+            "React",
+            "Backend",
+            "Laravel",
+            ".NET",
+            "Vue",
+            "express",
+            "Bootstrap",
+            "Frontend",
+            "Ruby on Rails",
+            "Tailwind",
+            "Angular",
+            "Cisco",
+            "Windows Server"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 10
+            },
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 8
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 65.17,
+            "student": 56.51
+        }
+    },
+    {
+        "id": "1e1e0647-3e25-46f9-bd3d-71428382e910",
+        "name": "Cornejo, Preciado y Serrano Asociados",
+        "phone": "986.019.311",
+        "email": "Ruben_OlivasFernandez13@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Salzadella (la)",
+            "street": "Torrente Timoteo, 91",
+            "position": {
+                "lat": 38.3967,
+                "lng": 0.2579
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/zZ6toR/300/180?grayscale&blur=4",
+        "categories": [
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Vue",
+            "Backend",
+            "Laravel",
+            "Django",
+            "Tailwind",
+            "React",
+            "Java Spring",
+            "Angular",
+            "Diseño",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 1
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 84.71,
+            "student": 32.19
+        }
+    },
+    {
+        "id": "98092044-9b23-406b-b935-44949c11d6ea",
+        "name": "Correa y Palomino",
+        "phone": "967 361 707",
+        "email": "Rosalia_PachecoBueno@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Benigembla",
+            "street": "Senda Rosa, 8",
+            "position": {
+                "lat": 40.2066,
+                "lng": -0.4208
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/KE9hc1/300/180?blur=6",
+        "categories": [
+            "Programación web",
+            "Programación multimedia"
+        ],
+        "services": [
+            "express",
+            "Backend",
+            "Diseño",
+            "Angular",
+            "React",
+            "Laravel",
+            "Tailwind",
+            "Frontend",
+            "Java Spring",
+            "Django",
+            ".NET",
+            "Bootstrap",
+            "Java",
+            "C/C++",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 8
+            }
+        ],
+        "score": {
+            "teacher": 47.37,
+            "student": 25.3
+        }
+    },
+    {
+        "id": "41842a17-1808-4be7-9bd5-194cd5ee556e",
+        "name": "Cotto Hermanos",
+        "phone": "907.166.696",
+        "email": "Ricardo_LiraPatino74@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Viver",
+            "street": "Mercado César Escobar, 12",
+            "position": {
+                "lat": 40.4763,
+                "lng": -0.6701
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/Yu32hziaF/300/180?blur=8",
+        "categories": [
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Cisco",
+            "Windows Server",
+            "Windows",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 76.61,
+            "student": 99.23
+        }
+    },
+    {
+        "id": "bd7108da-6c56-4288-8583-3bba73111465",
+        "name": "de Anda S.L.",
+        "phone": "988 649 155",
+        "email": "Antonio_EscalanteYanez@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Agost",
+            "street": "Paseo Beatriz Lozano, 4",
+            "position": {
+                "lat": 38.9508,
+                "lng": -1.0175
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/13lMjDB0/300/180?blur=9",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Frontend",
+            "Tailwind",
+            ".NET",
+            "Diseño",
+            "Laravel",
+            "Vue",
+            "Backend",
+            "Ruby on Rails",
+            "Angular",
+            "express",
+            "Django",
+            "React",
+            "Bootstrap",
+            "Gestión",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 8
+            },
+            {
+                "year": 2021,
+                "count": 5
+            },
+            {
+                "year": 2022,
+                "count": 2
+            },
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 94.5,
+            "student": 86.35
+        }
+    },
+    {
+        "id": "7a36b323-ccfe-44ff-91d7-5e0d1cac8587",
+        "name": "Domínguez Gallegos S.A.",
+        "phone": "911-953-796",
+        "email": "Lola43@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Llanera de Ranes",
+            "street": "Huerta Hugo 3",
+            "position": {
+                "lat": 38.5518,
+                "lng": -0.3167
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/9wUQoqY/300/180?grayscale&blur=7",
+        "categories": [
+            "Administración de empresas",
+            "Programación multimedia",
+            "Programación web"
+        ],
+        "services": [
+            "Gestión",
+            "Finanzas",
+            "Administrativo",
+            "Personal",
+            "Escritorio",
+            "Android",
+            "C/C++",
+            "Windows",
+            "IOs",
+            "MacOS",
+            "Linux",
+            "Go",
+            "Python",
+            "Dispositivos móviles",
+            "Java",
+            "C#",
+            "Rust",
+            "Java Spring",
+            "Vue",
+            "Laravel",
+            "express",
+            ".NET",
+            "Tailwind",
+            "Ruby on Rails",
+            "Frontend"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 1
+            },
+            {
+                "year": 2021,
+                "count": 9
+            },
+            {
+                "year": 2022,
+                "count": 6
+            },
+            {
+                "year": 2023,
+                "count": 4
+            },
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 35.1,
+            "student": 83.88
+        }
+    },
+    {
+        "id": "65c9de8c-95b6-4ed1-bdf5-b540acdda2b6",
+        "name": "Escobar e Hijos",
+        "phone": "970.489.467",
+        "email": "Berta45@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Yátova",
+            "street": "Manzana Juan Carlos, 83",
+            "position": {
+                "lat": 40.1125,
+                "lng": -0.7473
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/dLCi5/300/180?grayscale&blur=4",
+        "categories": [
+            "Administración de empresas",
+            "Administración de sistemas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Café",
+            "Gestión",
+            "Finanzas",
+            "Administrativo",
+            "Personal",
+            "Windows Server",
+            "Linux",
+            "Redes",
+            "Cisco",
+            "Go",
+            "C/C++",
+            "Dispositivos móviles",
+            "Escritorio",
+            "Linux",
+            "Java"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 10
+            },
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 4
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 76.39,
+            "student": 84.82
+        }
+    },
+    {
+        "id": "148e51a6-8c74-4d66-8c6d-29f4bea808eb",
+        "name": "Esparza S.L.",
+        "phone": "971 657 664",
+        "email": "Mariana.VelazquezBallesteros@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Moncada",
+            "street": "Puente Emilia 66",
+            "position": {
+                "lat": 39.6263,
+                "lng": -0.6166
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/dSAU4v/300/180?blur=7",
+        "categories": [
+            "Administración de sistemas",
+            "Programación web"
+        ],
+        "services": [
+            "Windows",
+            "Windows Server",
+            "Java Spring"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 8
+            },
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 68.12,
+            "student": 62.46
+        }
+    },
+    {
+        "id": "e94ae49f-2db1-4dcc-a1eb-fd6556c43e5f",
+        "name": "Espinoza Caballero S.A.",
+        "phone": "976 163 996",
+        "email": "Olivia86@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Guardamar del Segura",
+            "street": "Terrenos Jordi Bustos s/n.",
+            "position": {
+                "lat": 39.2267,
+                "lng": -0.8822
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/8loRGX/300/180?blur=6",
+        "categories": [
+            "Administración de empresas",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Administrativo",
+            ".NET",
+            "Django",
+            "Java Spring",
+            "Frontend",
+            "Tailwind",
+            "Cisco",
+            "Redes",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 20.27,
+            "student": 9.58
+        }
+    },
+    {
+        "id": "710a1ce1-2e3c-4c79-86f8-1917fe294842",
+        "name": "Farías, Barrios y Delapaz Asociados",
+        "phone": "950-459-657",
+        "email": "Gabriel42@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Bugarra",
+            "street": "Vía Josep 53",
+            "position": {
+                "lat": 39.9561,
+                "lng": -1.0049
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/voqlyB/300/180?blur=3",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Bootstrap",
+            "Django",
+            "Ruby on Rails",
+            "Java Spring",
+            "Frontend",
+            "Diseño",
+            "Vue",
+            "Laravel",
+            "express",
+            "Angular",
+            "React",
+            "Backend",
+            ".NET",
+            "Administrativo",
+            "Café",
+            "Finanzas",
+            "Gestión"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 73.99,
+            "student": 81.42
+        }
+    },
+    {
+        "id": "e13b1c26-835c-4ab5-badf-1f53fbf7bc47",
+        "name": "Fierro Amaya S.L.",
+        "phone": "907620057",
+        "email": "Benjamin87@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Pilar de la Horadada",
+            "street": "Subida Juana Guerrero, 66",
+            "position": {
+                "lat": 39.4352,
+                "lng": -0.0576
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/4C3RM/300/180?grayscale&blur=7",
+        "categories": [
+            "Programación multimedia",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Dispositivos móviles",
+            "Linux",
+            "Android",
+            "Python",
+            "C/C++",
+            "Gestión",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 2
+            },
+            {
+                "year": 2021,
+                "count": 4
+            },
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 48.29,
+            "student": 66.2
+        }
+    },
+    {
+        "id": "158a33d7-af70-4536-87d1-9dc1157bf834",
+        "name": "Figueroa, Ulloa y Ochoa Asociados",
+        "phone": "960 630 354",
+        "email": "Leonor_AlvaArenas85@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Rojales",
+            "street": "Urbanización Pedro Ordóñez 1",
+            "position": {
+                "lat": 38.1828,
+                "lng": -1.1734
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/jW9lkc/300/180?blur=6",
+        "categories": [
+            "Administración de empresas"
+        ],
+        "services": [
+            "Administrativo",
+            "Gestión"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 93.48,
+            "student": 17.98
+        }
+    },
+    {
+        "id": "b5898ba1-c9b8-4a53-a9c4-98b3c5f3140d",
+        "name": "Garibay Partida e Hijos",
+        "phone": "985.809.638",
+        "email": "Josep15@gmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Camporrobles",
+            "street": "Huerta Guillermo Matos s/n.",
+            "position": {
+                "lat": 38.2699,
+                "lng": 0.3103
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/lAaBKUuHvA/300/180?grayscale&blur=1",
+        "categories": [
+            "Administración de sistemas",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Linux",
+            "Personal",
+            "Café"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 8
+            }
+        ],
+        "score": {
+            "teacher": 69.29,
+            "student": 15.62
+        }
+    },
+    {
+        "id": "5404aaaa-4924-4fec-a3b0-124b8e7b9aa7",
+        "name": "Garibay, Navarro y Cruz Asociados",
+        "phone": "984293442",
+        "email": "Silvia.ArriagaCavazos45@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Parcent",
+            "street": "Extrarradio Ramiro Rosas, 6",
+            "position": {
+                "lat": 40.4663,
+                "lng": -1.3355
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/UljAk/300/180?grayscale&blur=3",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Java Spring",
+            "Bootstrap",
+            "Café",
+            "Administrativo",
+            "Personal",
+            "Gestión",
+            "Finanzas"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 9
+            },
+            {
+                "year": 2022,
+                "count": 9
+            },
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 6
+            }
+        ],
+        "score": {
+            "teacher": 3.96,
+            "student": 83.39
+        }
+    },
+    {
+        "id": "07ad75c9-bec2-4e2c-a552-667d6cde104e",
+        "name": "Gastélum y Badillo",
+        "phone": "989089110",
+        "email": "Ernesto.OjedaAyala@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Benafer",
+            "street": "Rampa Bernardo, 36",
+            "position": {
+                "lat": 40.1528,
+                "lng": -1.3946
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/BcjtGcOeJg/300/180?blur=6",
+        "categories": [
+            "Programación multimedia",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Linux",
+            "Escritorio",
+            "Cisco",
+            "Windows Server",
+            "Linux",
+            "Windows"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 6
+            }
+        ],
+        "score": {
+            "teacher": 76.46,
+            "student": 1.25
+        }
+    },
+    {
+        "id": "5da4a0d2-793a-41f8-bab1-4a1c7cc532eb",
+        "name": "Guajardo Preciado S.A.",
+        "phone": "944484562",
+        "email": "Diana34@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Gaibiel",
+            "street": "Jardines Hermenegildo s/n.",
+            "position": {
+                "lat": 39.4485,
+                "lng": 0.4706
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/FEGlZUNoZ1/300/180?blur=6",
+        "categories": [
+            "Administración de sistemas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Redes",
+            "Windows Server",
+            "Linux",
+            "Cisco",
+            "Windows",
+            "Linux",
+            "Rust"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 4
+            }
+        ],
+        "score": {
+            "teacher": 26.8,
+            "student": 59.58
+        }
+    },
+    {
+        "id": "49a4922a-c223-4b19-a523-11fca37554b0",
+        "name": "Guajardo Ríos e Hijos",
+        "phone": "951.030.376",
+        "email": "Veronica_SerratoMagana@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Benicasim/Benicàssim",
+            "street": "Lado Teresa 6",
+            "position": {
+                "lat": 40.5323,
+                "lng": 0.4516
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/ifeYegUs9N/300/180?blur=4",
+        "categories": [
+            "Programación multimedia",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Android",
+            "C/C++",
+            "Linux",
+            "Python",
+            "Windows",
+            "IOs",
+            "Go",
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 8
+            },
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 57.21,
+            "student": 39.07
+        }
+    },
+    {
+        "id": "e03c303c-8fcb-4f82-9fab-28e48ae96115",
+        "name": "Guerrero Casarez e Hijos",
+        "phone": "935.865.809",
+        "email": "Catalina.DelatorreOlivarez@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Sarratella",
+            "street": "Senda Alejandro 70",
+            "position": {
+                "lat": 39.0673,
+                "lng": 0.254
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/FmMzc/300/180?grayscale&blur=2",
+        "categories": [
+            "Programación multimedia"
+        ],
+        "services": [
+            "Android",
+            "MacOS",
+            "Windows",
+            "Rust",
+            "Python",
+            "C/C++",
+            "Go",
+            "C#"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 5
+            },
+            {
+                "year": 2021,
+                "count": 7
+            },
+            {
+                "year": 2022,
+                "count": 10
+            },
+            {
+                "year": 2023,
+                "count": 3
+            },
+            {
+                "year": 2024,
+                "count": 8
+            }
+        ],
+        "score": {
+            "teacher": 44.36,
+            "student": 91.82
+        }
+    },
+    {
+        "id": "98486883-f37b-48ce-8a1f-f3c88fa11286",
+        "name": "Guillén y Rael",
+        "phone": "963040164",
+        "email": "Alfredo_PazZaragoza44@gmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Bellús",
+            "street": "Ronda Francisco Ulloa 2",
+            "position": {
+                "lat": 39.3584,
+                "lng": -1.2695
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/sfwEE2SL/300/180?grayscale&blur=10",
+        "categories": [
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Windows",
+            "Windows Server"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 69.1,
+            "student": 87.76
+        }
+    },
+    {
+        "id": "f7fa98ce-ea59-4e77-a033-6a4d9b4d23da",
+        "name": "Henríquez Durán Hermanos",
+        "phone": "965069863",
+        "email": "MariadelosAngeles.PedrozaCervantez@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Ráfol de Salem",
+            "street": "Torrente Conchita Maestas, 93",
+            "position": {
+                "lat": 38.446,
+                "lng": -1.2774
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/p8DRt/300/180",
+        "categories": [
+            "Programación multimedia",
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "Android",
+            "Java",
+            "MacOS",
+            "IOs",
+            "Rust",
+            "C/C++",
+            "Escritorio",
+            "Windows",
+            "Dispositivos móviles",
+            "Python",
+            "Café",
+            "Personal",
+            "Administrativo",
+            "Gestión",
+            "React",
+            "Tailwind",
+            "Ruby on Rails",
+            "express",
+            ".NET",
+            "Bootstrap",
+            "Backend"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 4
+            },
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 85.6,
+            "student": 83.78
+        }
+    },
+    {
+        "id": "05d69d16-4612-40cd-acbc-06850ed16464",
+        "name": "Hernández Caraballo S.A.",
+        "phone": "946 302 966",
+        "email": "Teodoro74@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Burriana",
+            "street": "Prolongación Dorotea 65",
+            "position": {
+                "lat": 39.522,
+                "lng": -0.2244
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/gFVfmy/300/180?grayscale&blur=1",
+        "categories": [
+            "Programación multimedia",
+            "Programación web"
+        ],
+        "services": [
+            "Java",
+            "C/C++",
+            "Linux",
+            "Go",
+            "MacOS",
+            "C#",
+            "IOs",
+            "Rust",
+            "Dispositivos móviles",
+            "Escritorio",
+            "Android",
+            "Java Spring",
+            "Backend",
+            "React",
+            "Tailwind",
+            "Vue",
+            "Bootstrap",
+            "Diseño",
+            "Ruby on Rails",
+            "Django"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 3
+            },
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 35.82,
+            "student": 27.67
+        }
+    },
+    {
+        "id": "228a7a1d-c020-4808-9bd1-3029767f9fb0",
+        "name": "Hurtado Chavarría Hermanos",
+        "phone": "927.427.797",
+        "email": "Bernardo.PelayoValle49@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Ademuz",
+            "street": "Carretera Carlota, 19",
+            "position": {
+                "lat": 38.0658,
+                "lng": 0.3319
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/KoNGi67TK/300/180?blur=5",
+        "categories": [
+            "Administración de empresas",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Gestión",
+            "Finanzas",
+            "Café",
+            "Personal",
+            "Administrativo",
+            "Windows Server",
+            "Linux",
+            "Windows",
+            "Cisco",
+            "Redes"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 5
+            }
+        ],
+        "score": {
+            "teacher": 45.44,
+            "student": 0.2
+        }
+    },
+    {
+        "id": "560e954a-002f-4922-9cf8-9cff7aa869e4",
+        "name": "Irizarry, Velázquez y Espinosa Asociados",
+        "phone": "908 596 670",
+        "email": "Rosario57@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Sax",
+            "street": "Caserio Silvia s/n.",
+            "position": {
+                "lat": 40.2188,
+                "lng": -0.3001
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/LJErxIB8W9/300/180?grayscale&blur=9",
+        "categories": [
+            "Administración de empresas"
+        ],
+        "services": [
+            "Gestión",
+            "Personal",
+            "Café"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 3
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 13.38,
+            "student": 68.56
+        }
+    },
+    {
+        "id": "4151376c-f7a4-4022-8a1a-026dd95724c6",
+        "name": "Lemus, Deleón y Casillas Asociados",
+        "phone": "913 772 612",
+        "email": "Mariano73@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Sax",
+            "street": "Entrada Mercedes Manzanares, 1",
+            "position": {
+                "lat": 38.7124,
+                "lng": 0.3105
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/VIpsi8X4Y/300/180?grayscale&blur=5",
+        "categories": [
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Vue",
+            "express",
+            "Bootstrap",
+            "Ruby on Rails",
+            "Diseño",
+            "React",
+            "Linux",
+            "Windows Server",
+            "Cisco",
+            "Redes",
+            "Windows"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 5
+            }
+        ],
+        "score": {
+            "teacher": 21.2,
+            "student": 79.31
+        }
+    },
+    {
+        "id": "bc7fcf2a-825e-453d-bae9-f3d1f11c590f",
+        "name": "Loera Ávila S.A.",
+        "phone": "951-372-926",
+        "email": "Jacobo_ValverdeBarraza12@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Alfafara",
+            "street": "Puerta Gustavo s/n.",
+            "position": {
+                "lat": 38.2363,
+                "lng": 0.3803
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/0BpBw6jy/300/180?grayscale&blur=8",
+        "categories": [
+            "Administración de empresas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Café",
+            "Gestión",
+            "Administrativo",
+            "Finanzas",
+            "Windows",
+            "Rust",
+            "Escritorio",
+            "Go",
+            "Dispositivos móviles",
+            "C#",
+            "Java",
+            "IOs",
+            "Linux",
+            "MacOS",
+            "Android",
+            "Python",
+            "C/C++"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 19.04,
+            "student": 71.79
+        }
+    },
+    {
+        "id": "9659146a-b492-49fb-b03c-ec466e0f5282",
+        "name": "Lovato, Arroyo y Zamudio Asociados",
+        "phone": "926.496.268",
+        "email": "Mayte52@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Almudaina",
+            "street": "Arroyo Florencia Saucedo s/n.",
+            "position": {
+                "lat": 40.1147,
+                "lng": -0.3699
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/vEPafsZB/300/180?grayscale&blur=3",
+        "categories": [
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Windows Server",
+            "Linux",
+            "Redes"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 11.55,
+            "student": 45.26
+        }
+    },
+    {
+        "id": "a9bbb86b-b955-47b6-9205-a38459fd5a3d",
+        "name": "Malave y Abreu",
+        "phone": "971.259.038",
+        "email": "Elsa_SalcedoChapa13@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Cañada",
+            "street": "Arroyo Luis, 9",
+            "position": {
+                "lat": 38.1651,
+                "lng": -1.4956
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/rwuNoyTQ/300/180?blur=3",
+        "categories": [
+            "Programación web"
+        ],
+        "services": [
+            "Frontend",
+            "Ruby on Rails",
+            "Bootstrap",
+            "Tailwind",
+            "Laravel",
+            "Diseño",
+            "Java Spring"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 6
+            },
+            {
+                "year": 2021,
+                "count": 3
+            },
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 93.89,
+            "student": 3.19
+        }
+    },
+    {
+        "id": "d08bb455-8d28-483e-9cd0-3f3d49701a19",
+        "name": "Malave, Tello y Montalvo Asociados",
+        "phone": "985 282 148",
+        "email": "Manuel7@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Torreblanca",
+            "street": "Puerta Martín Vargas 4",
+            "position": {
+                "lat": 40.5096,
+                "lng": -1.0701
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/PyGgbOr3fk/300/180?grayscale&blur=1",
+        "categories": [
+            "Programación web",
+            "Administración de sistemas",
+            "Administración de empresas"
+        ],
+        "services": [
+            "express",
+            "React",
+            "Laravel",
+            "Frontend",
+            "Windows",
+            "Cisco",
+            "Redes",
+            "Administrativo",
+            "Personal",
+            "Gestión",
+            "Finanzas",
+            "Café"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 3
+            },
+            {
+                "year": 2022,
+                "count": 9
+            },
+            {
+                "year": 2023,
+                "count": 9
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 20.37,
+            "student": 56.19
+        }
+    },
+    {
+        "id": "a22f9ca0-84e6-42a8-b466-e0186c5e7dbc",
+        "name": "Maya y Saldivar",
+        "phone": "992825230",
+        "email": "Guillermo70@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Benferri",
+            "street": "Poblado Manuel Beltrán s/n.",
+            "position": {
+                "lat": 38.66,
+                "lng": -1.2443
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/CGqUJY/300/180?blur=2",
+        "categories": [
+            "Administración de sistemas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Windows",
+            "Linux",
+            "Windows Server",
+            "Redes",
+            "Java"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 15.31,
+            "student": 49.91
+        }
+    },
+    {
+        "id": "0c77721d-9321-4329-b51d-ae59e0044a70",
+        "name": "Miranda Aguirre Hermanos",
+        "phone": "996-843-624",
+        "email": "Hermenegildo.ArmendarizCarranza@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Tormos",
+            "street": "Puente Alejandra Zaragoza 4",
+            "position": {
+                "lat": 39.1426,
+                "lng": -1.0711
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/tCulUg7mZj/300/180?grayscale&blur=8",
+        "categories": [
+            "Programación multimedia",
+            "Programación web"
+        ],
+        "services": [
+            "C/C++",
+            "Go",
+            "Linux",
+            "C#",
+            "IOs",
+            "Java",
+            "Backend",
+            "Vue",
+            "Java Spring",
+            "Angular",
+            "Frontend",
+            ".NET",
+            "Django"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 6.41,
+            "student": 57.79
+        }
+    },
+    {
+        "id": "4eeb38a4-8c71-4279-91e1-22dc8cb5081c",
+        "name": "Miranda S.A.",
+        "phone": "968.331.683",
+        "email": "German.GilBotello@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Sagra",
+            "street": "Partida Gerardo Amador 23",
+            "position": {
+                "lat": 38.3851,
+                "lng": -1.3218
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/B0u2RAs/300/180?grayscale&blur=3",
+        "categories": [
+            "Programación web",
+            "Programación multimedia"
+        ],
+        "services": [
+            "express",
+            "Java Spring",
+            "Tailwind",
+            "Ruby on Rails",
+            "Bootstrap",
+            "React",
+            "Django",
+            "Go"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 2
+            },
+            {
+                "year": 2023,
+                "count": 9
+            },
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 76.79,
+            "student": 67.94
+        }
+    },
+    {
+        "id": "a22aa1f0-57e1-4cfa-92c1-4c69258dd013",
+        "name": "Mojica, Pabón y Valverde Asociados",
+        "phone": "933221735",
+        "email": "Carles.AcostaTamayo36@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Moncofa",
+            "street": "Bloque José Cisneros 17",
+            "position": {
+                "lat": 39.3602,
+                "lng": 0.3348
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/CCJY0/300/180?blur=3",
+        "categories": [
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 6
+            },
+            {
+                "year": 2021,
+                "count": 8
+            },
+            {
+                "year": 2022,
+                "count": 4
+            },
+            {
+                "year": 2023,
+                "count": 8
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 58.9,
+            "student": 61.22
+        }
+    },
+    {
+        "id": "10bd13a2-ae4b-4244-945e-1be8d157b801",
+        "name": "Mondragón, Treviño y Naranjo Asociados",
+        "phone": "969-710-248",
+        "email": "Pio.SamaniegoSosa34@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Sueras/Suera",
+            "street": "Solar Carlota 40",
+            "position": {
+                "lat": 38.4389,
+                "lng": 0.0204
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/hadkHLZ/300/180?blur=9",
+        "categories": [
+            "Programación web"
+        ],
+        "services": [
+            "Diseño",
+            "Laravel",
+            "Angular",
+            "Bootstrap",
+            "Backend",
+            "express",
+            ".NET",
+            "Tailwind",
+            "Ruby on Rails"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 9
+            },
+            {
+                "year": 2022,
+                "count": 9
+            },
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 63.69,
+            "student": 96.97
+        }
+    },
+    {
+        "id": "3ff5a026-8376-4c44-b236-7f8ab6ffa1c3",
+        "name": "Munguía Ortiz S.L.",
+        "phone": "948267613",
+        "email": "Alejandra41@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "San Isidro",
+            "street": "Terrenos María de los Ángeles Tórrez, 84",
+            "position": {
+                "lat": 39.2562,
+                "lng": -1.4837
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/aQNJF/300/180?blur=10",
+        "categories": [
+            "Administración de sistemas",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Linux",
+            "Windows Server",
+            "Redes",
+            "Windows",
+            "Cisco",
+            "Administrativo",
+            "Café",
+            "Finanzas",
+            "Gestión",
+            "Personal"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 3
+            },
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 54.52,
+            "student": 18.39
+        }
+    },
+    {
+        "id": "29ccba9d-b87c-434a-9b2a-4aa21691cf38",
+        "name": "Muñiz Serrato Hermanos",
+        "phone": "971872583",
+        "email": "Angel39@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Chelva",
+            "street": "Torrente Patricia 5",
+            "position": {
+                "lat": 39.6686,
+                "lng": -0.9973
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/R1UKihcSmN/300/180?blur=10",
+        "categories": [
+            "Administración de empresas"
+        ],
+        "services": [
+            "Café"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 85.41,
+            "student": 78.82
+        }
+    },
+    {
+        "id": "85c32f64-ba2b-492e-b41f-63395bb2000f",
+        "name": "Ochoa S.L.",
+        "phone": "981.463.183",
+        "email": "Roberto50@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Bicorp",
+            "street": "Ferrocarril Reina 39",
+            "position": {
+                "lat": 40.2821,
+                "lng": -0.8291
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/mDGKBqXW5/300/180?grayscale&blur=4",
+        "categories": [
+            "Programación web",
+            "Administración de sistemas",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Bootstrap",
+            "React",
+            "Linux",
+            "Windows Server",
+            "Cisco",
+            "Redes",
+            "Windows",
+            "Personal"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 91.02,
+            "student": 63.67
+        }
+    },
+    {
+        "id": "52015d1f-3f03-4ddb-a585-fcdb7c43f6d4",
+        "name": "Ojeda S.A.",
+        "phone": "991.556.181",
+        "email": "Mercedes_deAndaGracia@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "San Miguel de Salinas",
+            "street": "Extramuros Timoteo Rojas 59",
+            "position": {
+                "lat": 40.7982,
+                "lng": -0.1192
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/wxYlj/300/180?grayscale&blur=4",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Diseño",
+            "Bootstrap",
+            "Ruby on Rails",
+            "Django",
+            "Laravel",
+            "Gestión",
+            "Personal",
+            "Finanzas",
+            "Café",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 7
+            },
+            {
+                "year": 2022,
+                "count": 10
+            },
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 92.13,
+            "student": 91.91
+        }
+    },
+    {
+        "id": "dedd8bf6-e6e0-4ce4-a92e-5cfe9ec5a3b9",
+        "name": "Ojeda S.L.",
+        "phone": "986-663-994",
+        "email": "Manuel_deAndaFonseca2@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Burriana",
+            "street": "Puente Ramiro, 8",
+            "position": {
+                "lat": 40.5027,
+                "lng": -0.1445
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/yRl6ZyGE9/300/180?blur=2",
+        "categories": [
+            "Programación web",
+            "Programación multimedia"
+        ],
+        "services": [
+            ".NET",
+            "Vue",
+            "Tailwind",
+            "Ruby on Rails",
+            "Django",
+            "Bootstrap",
+            "Frontend",
+            "Angular",
+            "Java Spring",
+            "express",
+            "React",
+            "Diseño",
+            "Backend",
+            "Rust",
+            "Linux",
+            "MacOS",
+            "Dispositivos móviles",
+            "Escritorio",
+            "Android",
+            "C#",
+            "Go",
+            "Python",
+            "Java",
+            "C/C++",
+            "IOs",
+            "Windows"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 8
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 71.52,
+            "student": 64.43
+        }
+    },
+    {
+        "id": "fe9de1cc-31b2-434f-9a53-47237a798de5",
+        "name": "Ontiveros y Carrillo",
+        "phone": "939.006.895",
+        "email": "Amalia22@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Relleu",
+            "street": "Lugar Adela 15",
+            "position": {
+                "lat": 39.2573,
+                "lng": -1.0327
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/T8Hst/300/180?grayscale&blur=7",
+        "categories": [
+            "Programación multimedia",
+            "Administración de sistemas",
+            "Programación web"
+        ],
+        "services": [
+            "C/C++",
+            "Go",
+            "Escritorio",
+            "Linux",
+            "IOs",
+            "Dispositivos móviles",
+            "MacOS",
+            "C#",
+            "Python",
+            "Android",
+            "Windows",
+            "Vue",
+            "Ruby on Rails",
+            "express",
+            "Diseño",
+            ".NET",
+            "Django",
+            "Tailwind",
+            "Java Spring"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 3
+            },
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 22.78,
+            "student": 78.63
+        }
+    },
+    {
+        "id": "19e06844-005f-4557-bc45-7cf353331a9b",
+        "name": "Ontiveros y Olivas",
+        "phone": "960-862-939",
+        "email": "Diana84@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Benafigos",
+            "street": "Quinta Amalia Puente s/n.",
+            "position": {
+                "lat": 39.1077,
+                "lng": -1.1889
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/Qf5lZ/300/180?grayscale&blur=2",
+        "categories": [
+            "Programación multimedia",
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "C/C++",
+            "Escritorio",
+            "C#",
+            "Rust",
+            "Go",
+            "Python",
+            "Café",
+            "Personal",
+            "Java Spring",
+            "Ruby on Rails",
+            "Vue",
+            "React",
+            ".NET",
+            "Django",
+            "Tailwind",
+            "Frontend",
+            "Backend",
+            "Angular",
+            "Bootstrap",
+            "Diseño",
+            "Laravel",
+            "express"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 8
+            }
+        ],
+        "score": {
+            "teacher": 90.48,
+            "student": 38.18
+        }
+    },
+    {
+        "id": "a9aa03d1-6aaa-46eb-931d-b1646c7cf0f0",
+        "name": "Ortega e Hijos",
+        "phone": "986.251.290",
+        "email": "Adriana.ResendezColon15@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Mutxamel",
+            "street": "Ferrocarril Florencia Gaitán 58",
+            "position": {
+                "lat": 38.0934,
+                "lng": -0.0259
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/JN4p1WhEIU/300/180?blur=1",
+        "categories": [
+            "Programación multimedia"
+        ],
+        "services": [
+            "Python",
+            "Android",
+            "C/C++",
+            "IOs",
+            "C#",
+            "Go",
+            "MacOS",
+            "Dispositivos móviles",
+            "Java"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 79.2,
+            "student": 24.36
+        }
+    },
+    {
+        "id": "a66782c0-ac92-4d69-b3d4-3836cee61cd5",
+        "name": "Pabón y Padrón",
+        "phone": "925491042",
+        "email": "Gabriel.MonteroDelvalle@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Palma de Gandía",
+            "street": "Pasaje Cristián Irizarry, 28",
+            "position": {
+                "lat": 39.2598,
+                "lng": -1.2126
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/5Mopr/300/180?blur=9",
+        "categories": [
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Java Spring",
+            "React",
+            "Django",
+            "Diseño",
+            "Ruby on Rails",
+            "Tailwind",
+            "Angular",
+            "Laravel",
+            "Backend",
+            "express",
+            "Vue",
+            ".NET",
+            "Frontend",
+            "Bootstrap",
+            "Windows Server",
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 7
+            },
+            {
+                "year": 2022,
+                "count": 10
+            },
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 8
+            }
+        ],
+        "score": {
+            "teacher": 12.5,
+            "student": 73.44
+        }
+    },
+    {
+        "id": "646b2545-a4a3-4eca-b2b8-1becb32600a4",
+        "name": "Padilla y Sandoval",
+        "phone": "949680003",
+        "email": "Jacobo_MalaveCovarrubias13@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Emperador",
+            "street": "Glorieta María Eugenia, 61",
+            "position": {
+                "lat": 38.1068,
+                "lng": -1.0213
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/hB8We/300/180?grayscale&blur=10",
+        "categories": [
+            "Programación multimedia",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Python",
+            "Rust",
+            "Windows",
+            "Bootstrap",
+            "Vue",
+            "Diseño",
+            "Django",
+            "React",
+            "Java Spring",
+            "Backend",
+            "Ruby on Rails",
+            "Laravel",
+            "Tailwind",
+            "express",
+            "Frontend",
+            "Angular",
+            ".NET",
+            "Linux",
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 37.56,
+            "student": 32.41
+        }
+    },
+    {
+        "id": "24c3dd45-e28c-4639-88a7-1e29ae1c7e7f",
+        "name": "Paredes, Carreón y Batista Asociados",
+        "phone": "933803866",
+        "email": "Pio_GuevaraVelazquez@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Bejís",
+            "street": "Prolongación María Soledad Pineda s/n.",
+            "position": {
+                "lat": 39.2927,
+                "lng": -1.0186
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/s983PQ/300/180?grayscale&blur=4",
+        "categories": [
+            "Programación multimedia"
+        ],
+        "services": [
+            "Go",
+            "Android",
+            "C#",
+            "Java",
+            "Linux",
+            "MacOS",
+            "Windows",
+            "C/C++",
+            "Python",
+            "Escritorio",
+            "IOs",
+            "Rust",
+            "Dispositivos móviles"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 3
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 79.1,
+            "student": 69.91
+        }
+    },
+    {
+        "id": "bc85001d-ad11-463d-af2f-22edf2dd5f85",
+        "name": "Pedraza y Menchaca",
+        "phone": "950.756.708",
+        "email": "MariaCristina.ArceAguilar14@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Busot",
+            "street": "Rincón Gustavo Alcántar, 3",
+            "position": {
+                "lat": 39.7794,
+                "lng": -0.8513
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/7Lc16rL1vY/300/180?grayscale&blur=10",
+        "categories": [
+            "Programación multimedia"
+        ],
+        "services": [
+            "Linux",
+            "Go"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 5
+            }
+        ],
+        "score": {
+            "teacher": 38.51,
+            "student": 48.58
+        }
+    },
+    {
+        "id": "46dc357e-f090-44f9-aa99-ad4b6633716f",
+        "name": "Perea y Valladares",
+        "phone": "930131335",
+        "email": "Alfonso_GastelumMena23@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Benavites",
+            "street": "Barrio Pilar 31",
+            "position": {
+                "lat": 39.4741,
+                "lng": -0.3468
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/Jxom24Jj5/300/180?blur=1",
+        "categories": [
+            "Administración de sistemas",
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "Windows Server",
+            "Cisco",
+            "Redes",
+            "Café",
+            "Backend",
+            "Angular",
+            "Diseño"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 59.47,
+            "student": 25.26
+        }
+    },
+    {
+        "id": "612f0ad2-b0ec-43c0-880e-c79ca61ab96a",
+        "name": "Prieto Arriaga Hermanos",
+        "phone": "991 400 960",
+        "email": "Irene.RojoAcevedo36@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Barracas",
+            "street": "Arrabal María 41",
+            "position": {
+                "lat": 39.2685,
+                "lng": -0.3553
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/UqfUis/300/180?grayscale&blur=1",
+        "categories": [
+            "Administración de empresas",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Personal",
+            "Frontend",
+            "React",
+            "Vue",
+            "Backend",
+            "express",
+            "Diseño",
+            "Laravel",
+            "Django",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 28.7,
+            "student": 65.82
+        }
+    },
+    {
+        "id": "acaf824b-6833-4426-b958-3dff62598073",
+        "name": "Pulido, Prieto y Arreola Asociados",
+        "phone": "959 231 007",
+        "email": "Sara_TovardeJesus59@gmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Alcublas",
+            "street": "Monte Blanca s/n.",
+            "position": {
+                "lat": 40.6665,
+                "lng": 0.2103
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/bgX2pM5t/300/180?blur=6",
+        "categories": [
+            "Programación multimedia"
+        ],
+        "services": [
+            "C/C++",
+            "Go",
+            "Python"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 1
+            },
+            {
+                "year": 2021,
+                "count": 3
+            },
+            {
+                "year": 2022,
+                "count": 6
+            },
+            {
+                "year": 2023,
+                "count": 3
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 18.14,
+            "student": 36.21
+        }
+    },
+    {
+        "id": "79ac419b-ce75-4cbd-a749-e53bea1e419c",
+        "name": "Quintana S.L.",
+        "phone": "992540764",
+        "email": "Elisa.AmayaAcosta@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Villarreal/Vila-real",
+            "street": "Puente Jacobo, 30",
+            "position": {
+                "lat": 38.0964,
+                "lng": 0.4907
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/JW9xuEWup/300/180?grayscale&blur=6",
+        "categories": [
+            "Programación web",
+            "Administración de empresas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Backend",
+            "Finanzas",
+            "Personal",
+            "Gestión",
+            "C/C++",
+            "IOs",
+            "Python",
+            "Android",
+            "Java",
+            "Escritorio",
+            "Dispositivos móviles",
+            "Rust"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 32.97,
+            "student": 69.63
+        }
+    },
+    {
+        "id": "85a65571-be21-4cf0-8615-51aa7939f5c7",
+        "name": "Quiñones Zepeda Hermanos",
+        "phone": "928.163.948",
+        "email": "Lola_UlloaCalderon48@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Caudiel",
+            "street": "Parcela Marisol Preciado s/n.",
+            "position": {
+                "lat": 39.2081,
+                "lng": -0.6096
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/7GoFZ/300/180?grayscale&blur=6",
+        "categories": [
+            "Programación web",
+            "Administración de sistemas",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Diseño",
+            "Tailwind",
+            "React",
+            "Django",
+            "Backend",
+            "express",
+            "Vue",
+            "Angular",
+            "Ruby on Rails",
+            ".NET",
+            "Java Spring",
+            "Bootstrap",
+            "Laravel",
+            "Redes",
+            "Windows Server",
+            "Windows",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 5
+            },
+            {
+                "year": 2022,
+                "count": 2
+            },
+            {
+                "year": 2023,
+                "count": 9
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 93.46,
+            "student": 77.32
+        }
+    },
+    {
+        "id": "263ada82-0942-4dc5-9b85-ae2cc17c40cf",
+        "name": "Riojas, Terán y Tovar Asociados",
+        "phone": "918154340",
+        "email": "Marcela78@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Ènova (l')",
+            "street": "Huerta José Luis Angulo s/n.",
+            "position": {
+                "lat": 38.6168,
+                "lng": 0.3405
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/q5g3NKQEzg/300/180?blur=7",
+        "categories": [
+            "Administración de empresas"
+        ],
+        "services": [
+            "Gestión",
+            "Finanzas"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 10
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 0.74,
+            "student": 66.85
+        }
+    },
+    {
+        "id": "534f8770-7df1-4f5d-bf61-8606e2eaa5e6",
+        "name": "Rivera, Benavides y Camarillo Asociados",
+        "phone": "928 879 980",
+        "email": "Patricia96@hotmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Alcocer de Planes",
+            "street": "Bloque Carlos s/n.",
+            "position": {
+                "lat": 39.002,
+                "lng": 0.4351
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/oypbxMAJ/300/180?grayscale",
+        "categories": [
+            "Programación web",
+            "Administración de empresas",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Ruby on Rails",
+            "Angular",
+            "Diseño",
+            "Java Spring",
+            "Backend",
+            "express",
+            ".NET",
+            "Vue",
+            "Bootstrap",
+            "Tailwind",
+            "Gestión",
+            "Café",
+            "Windows Server",
+            "Windows",
+            "Linux",
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 2
+            },
+            {
+                "year": 2022,
+                "count": 4
+            },
+            {
+                "year": 2023,
+                "count": 9
+            },
+            {
+                "year": 2024,
+                "count": 6
+            }
+        ],
+        "score": {
+            "teacher": 7.23,
+            "student": 26.7
+        }
+    },
+    {
+        "id": "b7d0cfb3-9e39-4417-8cd4-26ba462556b3",
+        "name": "Rodarte Delarosa Hermanos",
+        "phone": "980 732 611",
+        "email": "Gustavo40@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Villar del Arzobispo",
+            "street": "Solar Juan Berríos, 75",
+            "position": {
+                "lat": 38.6716,
+                "lng": 0.058
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/loCVe/300/180?blur=4",
+        "categories": [
+            "Administración de empresas"
+        ],
+        "services": [
+            "Finanzas",
+            "Personal"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 64.37,
+            "student": 60.13
+        }
+    },
+    {
+        "id": "ebb9c593-5619-4a9e-830e-cd9af43f782f",
+        "name": "Salinas Barajas S.A.",
+        "phone": "965592623",
+        "email": "Marisol24@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Cox",
+            "street": "Quinta Estela Narváez 3",
+            "position": {
+                "lat": 38.7126,
+                "lng": 0.3179
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/Wc7gU/300/180?grayscale&blur=1",
+        "categories": [
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Cisco",
+            "Windows",
+            "Redes"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 73.63,
+            "student": 57.46
+        }
+    },
+    {
+        "id": "465d6d3f-9543-4b39-bd35-4106405ae019",
+        "name": "Sanabria Villalpando e Hijos",
+        "phone": "984 086 759",
+        "email": "Leonor.LemusApodaca93@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Gandia",
+            "street": "Plaza Luisa, 3",
+            "position": {
+                "lat": 38.8511,
+                "lng": -0.4545
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/3MFigNtK/300/180?blur=4",
+        "categories": [
+            "Programación multimedia",
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Java",
+            "Rust",
+            "Ruby on Rails",
+            "Backend",
+            "Bootstrap",
+            "React",
+            ".NET",
+            "Vue",
+            "Angular",
+            "Diseño",
+            "Django",
+            "Java Spring",
+            "Frontend",
+            "Laravel",
+            "express",
+            "Tailwind",
+            "Personal",
+            "Administrativo",
+            "Gestión",
+            "Café",
+            "Finanzas"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 2
+            },
+            {
+                "year": 2021,
+                "count": 1
+            },
+            {
+                "year": 2022,
+                "count": 6
+            },
+            {
+                "year": 2023,
+                "count": 1
+            },
+            {
+                "year": 2024,
+                "count": 2
+            }
+        ],
+        "score": {
+            "teacher": 80.14,
+            "student": 56.63
+        }
+    },
+    {
+        "id": "6f7b620d-27e4-41b6-bb3c-48c86a2d682b",
+        "name": "Santana y Zarate",
+        "phone": "962.623.525",
+        "email": "Alfredo_OrellanaGarrido5@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Torreblanca",
+            "street": "Escalinata Martín 6",
+            "position": {
+                "lat": 39.1155,
+                "lng": -0.5946
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/o84D6T9j/300/180?blur=5",
+        "categories": [
+            "Programación web",
+            "Administración de empresas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Django",
+            "Café",
+            "Personal",
+            "Linux",
+            "C#",
+            "Escritorio",
+            "Rust"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 1
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 36.87,
+            "student": 43.93
+        }
+    },
+    {
+        "id": "d73fda7f-74f1-4078-be7f-2fd8736c91a8",
+        "name": "Sisneros, Villagómez y Rascón Asociados",
+        "phone": "909-837-694",
+        "email": "Ramon.MelendezAgosto@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Villargordo del Cabriel",
+            "street": "Plaza Anni, 64",
+            "position": {
+                "lat": 39.306,
+                "lng": -1.2022
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/0S9I7If/300/180?grayscale&blur=6",
+        "categories": [
+            "Programación web"
+        ],
+        "services": [
+            "Django",
+            "Bootstrap",
+            "Ruby on Rails"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 41.1,
+            "student": 30.68
+        }
+    },
+    {
+        "id": "baefce11-7e6f-47f0-872f-5e403ba13eac",
+        "name": "Soria y Centeno",
+        "phone": "924-671-692",
+        "email": "Guillermo_PalaciosDelatorre@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Senija",
+            "street": "Salida Eloisa Rascón, 35",
+            "position": {
+                "lat": 38.72,
+                "lng": -0.0232
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/jQeGcrLWW/300/180?grayscale&blur=3",
+        "categories": [
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "Gestión",
+            "Backend",
+            ".NET",
+            "Vue",
+            "Frontend",
+            "Angular",
+            "Java Spring",
+            "Laravel",
+            "Diseño",
+            "Tailwind",
+            "Django",
+            "React",
+            "Bootstrap"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 8
+            }
+        ],
+        "score": {
+            "teacher": 5.1,
+            "student": 5.45
+        }
+    },
+    {
+        "id": "d80fba70-b34e-432e-99e5-c36f2fc68f1e",
+        "name": "Soto Moya e Hijos",
+        "phone": "965963631",
+        "email": "Mario.OntiverosCalderon@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Alcalalí",
+            "street": "Aldea Florencia Adame s/n.",
+            "position": {
+                "lat": 38.0492,
+                "lng": -1.0566
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/zlJEvZOQ/300/180?blur=4",
+        "categories": [
+            "Programación web"
+        ],
+        "services": [
+            "Ruby on Rails",
+            "React",
+            "Laravel",
+            "Java Spring",
+            "Tailwind",
+            ".NET"
+        ],
+        "openings": [
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 7
+            }
+        ],
+        "score": {
+            "teacher": 63.51,
+            "student": 40.16
+        }
+    },
+    {
+        "id": "e44f305a-9181-4b48-9d18-728436990748",
+        "name": "Suárez y Ordóñez",
+        "phone": "946.286.958",
+        "email": "Agustin97@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Gaibiel",
+            "street": "Colonia Daniela 14",
+            "position": {
+                "lat": 40.2331,
+                "lng": -0.7003
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/RaXydmCLZV/300/180?blur=10",
+        "categories": [
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Diseño",
+            "Django",
+            "Backend",
+            "Ruby on Rails",
+            "React",
+            "Angular",
+            "Cisco",
+            "Windows Server",
+            "Windows",
+            "Linux",
+            "Redes"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 7
+            },
+            {
+                "year": 2023,
+                "count": 6
+            },
+            {
+                "year": 2024,
+                "count": 6
+            }
+        ],
+        "score": {
+            "teacher": 71.6,
+            "student": 45.86
+        }
+    },
+    {
+        "id": "7f4583f6-d60f-49e8-85f3-4996e6cb5e93",
+        "name": "Tamez, Vigil y Holguín Asociados",
+        "phone": "998.083.004",
+        "email": "Soledad67@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Cañada",
+            "street": "Edificio Eloisa Valdez 10",
+            "position": {
+                "lat": 40.2626,
+                "lng": 0.046
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/FiHrZcmGjx/300/180?grayscale&blur=3",
+        "categories": [
+            "Programación multimedia",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Escritorio",
+            "C/C++",
+            "Go",
+            "Windows",
+            "Rust",
+            "IOs",
+            "Android",
+            "C#",
+            "Gestión"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 4
+            },
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 5
+            }
+        ],
+        "score": {
+            "teacher": 31.14,
+            "student": 79.55
+        }
+    },
+    {
+        "id": "ebedc868-4b58-4bd9-b1d3-6e9116817e1f",
+        "name": "Tijerina, Banda y Urrutia Asociados",
+        "phone": "990 739 364",
+        "email": "MariaTeresa.ColungaPrado@hotmail.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Chulilla",
+            "street": "Aldea Carmen Menchaca 12",
+            "position": {
+                "lat": 40.2848,
+                "lng": -0.4227
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/xCOHlH6/300/180?blur=6",
+        "categories": [
+            "Administración de sistemas",
+            "Administración de empresas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Linux",
+            "Cisco",
+            "Windows Server",
+            "Windows",
+            "Gestión",
+            "Personal",
+            "Café",
+            "MacOS",
+            "IOs",
+            "Dispositivos móviles",
+            "Linux",
+            "Python",
+            "Java",
+            "Windows",
+            "Go",
+            "Escritorio",
+            "C/C++",
+            "Rust",
+            "Android",
+            "C#"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 1
+            },
+            {
+                "year": 2022,
+                "count": 2
+            },
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 5
+            }
+        ],
+        "score": {
+            "teacher": 73.41,
+            "student": 36.91
+        }
+    },
+    {
+        "id": "b1e1c868-fe1d-4a7e-a03e-51872d24c4df",
+        "name": "Tirado y Preciado",
+        "phone": "931-814-065",
+        "email": "Yolanda_LongoriaMarquez@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Serra",
+            "street": "Caserio Magdalena s/n.",
+            "position": {
+                "lat": 38.3884,
+                "lng": -0.3752
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/E7wl49j/300/180?blur=9",
+        "categories": [
+            "Programación multimedia",
+            "Programación web"
+        ],
+        "services": [
+            "C#",
+            "Android",
+            "Rust",
+            "Linux",
+            "Escritorio",
+            "MacOS",
+            "Python",
+            "Windows",
+            "Dispositivos móviles",
+            "Frontend",
+            "express",
+            "Django",
+            "Angular",
+            "Tailwind",
+            "Ruby on Rails"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 4
+            }
+        ],
+        "score": {
+            "teacher": 24.43,
+            "student": 46.51
+        }
+    },
+    {
+        "id": "767eab10-cf22-4e50-afa4-b6dd829cd6a2",
+        "name": "Toledo, Salazar y Salcedo Asociados",
+        "phone": "913-723-062",
+        "email": "AnaMaria25@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Torre Endoménech",
+            "street": "Salida Jaime Cortés, 9",
+            "position": {
+                "lat": 38.5021,
+                "lng": -0.9352
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/mRxeFqs7z/300/180?blur=3",
+        "categories": [
+            "Programación multimedia",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Rust",
+            "Java",
+            "IOs",
+            "Linux",
+            "C/C++",
+            "C#",
+            "Android",
+            "Escritorio",
+            "Windows",
+            "Go",
+            "Django",
+            "Linux",
+            "Redes",
+            "Windows Server",
+            "Cisco"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 5
+            },
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 1.21,
+            "student": 47.53
+        }
+    },
+    {
+        "id": "087fd8d8-f5df-4b7d-98ef-6e52f0fc133e",
+        "name": "Trujillo, Sepúlveda y Carmona Asociados",
+        "phone": "974695127",
+        "email": "Sancho_VieraArteaga66@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Torrevieja",
+            "street": "Edificio Reina Orta 9",
+            "position": {
+                "lat": 40.3337,
+                "lng": -0.3389
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/NnzfdcAPE/300/180?blur=6",
+        "categories": [
+            "Programación web",
+            "Programación multimedia"
+        ],
+        "services": [
+            ".NET",
+            "Django",
+            "Bootstrap",
+            "Frontend",
+            "Ruby on Rails",
+            "Vue",
+            "React",
+            "Windows",
+            "Dispositivos móviles"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 9
+            },
+            {
+                "year": 2021,
+                "count": 4
+            },
+            {
+                "year": 2022,
+                "count": 5
+            },
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 28.43,
+            "student": 50.25
+        }
+    },
+    {
+        "id": "2a075bb7-dca1-4d53-a657-c999e24d231f",
+        "name": "Valverde, Amaya y Guajardo Asociados",
+        "phone": "915484554",
+        "email": "Samuel_PedrozaLoera@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Morella",
+            "street": "Huerta Barbara Rocha 28",
+            "position": {
+                "lat": 38.9507,
+                "lng": 0.3956
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/zUci5I9/300/180?grayscale&blur=5",
+        "categories": [
+            "Administración de empresas"
+        ],
+        "services": [
+            "Finanzas",
+            "Gestión",
+            "Personal",
+            "Café",
+            "Administrativo"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 2
+            },
+            {
+                "year": 2021,
+                "count": 9
+            },
+            {
+                "year": 2022,
+                "count": 3
+            },
+            {
+                "year": 2023,
+                "count": 7
+            },
+            {
+                "year": 2024,
+                "count": 5
+            }
+        ],
+        "score": {
+            "teacher": 39.29,
+            "student": 92.54
+        }
+    },
+    {
+        "id": "4e7ab5a2-b856-46ed-9111-48a770f6649e",
+        "name": "Vargas S.L.",
+        "phone": "964 568 698",
+        "email": "Ramona.CaballeroMedina45@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Villafranca del Cid/Vilafranca",
+            "street": "Chalet Diana Terrazas, 1",
+            "position": {
+                "lat": 40.6384,
+                "lng": -1.037
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/8f89BcV/300/180?grayscale",
+        "categories": [
+            "Programación multimedia",
+            "Administración de empresas",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Rust",
+            "MacOS",
+            "Java",
+            "Windows",
+            "IOs",
+            "Dispositivos móviles",
+            "Gestión",
+            "Windows Server",
+            "Redes"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 1
+            }
+        ],
+        "score": {
+            "teacher": 32.9,
+            "student": 86.91
+        }
+    },
+    {
+        "id": "ad4c78f4-4a48-4036-8a5b-12406205ef94",
+        "name": "Velázquez Casas S.L.",
+        "phone": "917.489.989",
+        "email": "Carmen49@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Toro (El)",
+            "street": "Explanada Dorotea 35",
+            "position": {
+                "lat": 40.7874,
+                "lng": -0.1603
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/ika1C/300/180?blur=3",
+        "categories": [
+            "Administración de sistemas",
+            "Administración de empresas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Windows Server",
+            "Cisco",
+            "Windows",
+            "Linux",
+            "Redes",
+            "Gestión",
+            "C#",
+            "IOs",
+            "Escritorio",
+            "Go",
+            "Java",
+            "C/C++",
+            "Linux",
+            "MacOS",
+            "Android"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 6
+            }
+        ],
+        "score": {
+            "teacher": 27.06,
+            "student": 16.09
+        }
+    },
+    {
+        "id": "451eb7e2-08ce-4797-95f4-fb41639205e2",
+        "name": "Villalpando, Guerrero y Nieves Asociados",
+        "phone": "921451831",
+        "email": "Fernando.GalindoRodriguez62@yahoo.com",
+        "address": {
+            "region": "Valencia/València",
+            "town": "Chulilla",
+            "street": "Solar Enrique Rangel 9",
+            "position": {
+                "lat": 38.9761,
+                "lng": -0.2461
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/b3izVpzv/300/180?blur=10",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Laravel",
+            "Frontend",
+            "Ruby on Rails",
+            "Café",
+            "Gestión"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 8
+            },
+            {
+                "year": 2022,
+                "count": 5
+            },
+            {
+                "year": 2023,
+                "count": 2
+            },
+            {
+                "year": 2024,
+                "count": 9
+            }
+        ],
+        "score": {
+            "teacher": 22.18,
+            "student": 88.61
+        }
+    },
+    {
+        "id": "91c40fa2-6614-4a13-8a87-500ae55c1419",
+        "name": "Villaseñor S.A.",
+        "phone": "968-577-550",
+        "email": "Carmen96@yahoo.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Rafal",
+            "street": "Polígono Olivia s/n.",
+            "position": {
+                "lat": 39.0013,
+                "lng": 0.1254
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/MwtaueYOuQ/300/180?blur=2",
+        "categories": [
+            "Administración de empresas",
+            "Programación multimedia"
+        ],
+        "services": [
+            "Café",
+            "Personal",
+            "Gestión",
+            "Escritorio",
+            "Python",
+            "MacOS",
+            "IOs",
+            "Android",
+            "Rust",
+            "Windows",
+            "Go",
+            "Dispositivos móviles",
+            "Java"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 8
+            },
+            {
+                "year": 2023,
+                "count": 9
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 85.61,
+            "student": 97.06
+        }
+    },
+    {
+        "id": "94165ca6-80a2-4ab6-b9d7-6257e7e8f8b9",
+        "name": "Villegas Banda S.A.",
+        "phone": "962.267.177",
+        "email": "Manuel51@hotmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Castellnovo",
+            "street": "Urbanización Carmen 6",
+            "position": {
+                "lat": 38.056,
+                "lng": -0.3341
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/p6gsKYhuel/300/180?grayscale&blur=9",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Bootstrap",
+            "express",
+            "Gestión",
+            "Administrativo",
+            "Café",
+            "Personal"
+        ],
+        "openings": [
+            {
+                "year": 2022,
+                "count": 6
+            },
+            {
+                "year": 2023,
+                "count": 8
+            },
+            {
+                "year": 2024,
+                "count": 6
+            }
+        ],
+        "score": {
+            "teacher": 44.52,
+            "student": 84.84
+        }
+    },
+    {
+        "id": "2da36428-ba5e-4174-89d0-f00b609130c1",
+        "name": "Zamora, Carbajal y Muro Asociados",
+        "phone": "949-109-332",
+        "email": "Benito.QuinonesCamacho64@gmail.com",
+        "address": {
+            "region": "Alicante/Alacant",
+            "town": "Facheca",
+            "street": "Barranco Ángela 12",
+            "position": {
+                "lat": 38.462,
+                "lng": -0.6249
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/jlV1wAmi/300/180?grayscale&blur=2",
+        "categories": [
+            "Programación multimedia",
+            "Programación web",
+            "Administración de sistemas"
+        ],
+        "services": [
+            "Windows",
+            "Rust",
+            "Go",
+            "C/C++",
+            ".NET",
+            "Frontend",
+            "Bootstrap",
+            "Ruby on Rails",
+            "Django",
+            "express",
+            "Diseño",
+            "Cisco",
+            "Windows",
+            "Linux"
+        ],
+        "openings": [
+            {
+                "year": 2021,
+                "count": 7
+            },
+            {
+                "year": 2022,
+                "count": 2
+            },
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 6
+            }
+        ],
+        "score": {
+            "teacher": 19.24,
+            "student": 41.9
+        }
+    },
+    {
+        "id": "8a197cf2-5ee3-40a8-983e-e6bd06ba83e9",
+        "name": "Zaragoza e Hijos",
+        "phone": "948 737 979",
+        "email": "Graciela.DelarosaMeza@yahoo.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Chert/Xert",
+            "street": "Jardines Claudio Pabón 2",
+            "position": {
+                "lat": 38.4976,
+                "lng": -1.4042
+            }
+        },
+        "workingHours": {
+            "start": "08:00",
+            "end": "16:00"
+        },
+        "image": "https://picsum.photos/seed/PM3a4DMVA1/300/180?grayscale&blur=2",
+        "categories": [
+            "Programación web",
+            "Administración de empresas"
+        ],
+        "services": [
+            "Frontend",
+            "Backend",
+            "Personal"
+        ],
+        "openings": [
+            {
+                "year": 2024,
+                "count": 3
+            }
+        ],
+        "score": {
+            "teacher": 54.92,
+            "student": 56.54
+        }
+    },
+    {
+        "id": "1daa7604-fd7c-47b9-9a71-37793487282f",
+        "name": "Zarate, Canales y Otero Asociados",
+        "phone": "991-114-402",
+        "email": "Mario2@gmail.com",
+        "address": {
+            "region": "Castellón/Castelló",
+            "town": "Vall d'Uixó (la)",
+            "street": "Ferrocarril Alejandra 26",
+            "position": {
+                "lat": 38.8055,
+                "lng": 0.0842
+            }
+        },
+        "workingHours": {
+            "start": "09:00",
+            "end": "18:00"
+        },
+        "image": "https://picsum.photos/seed/RTtjI/300/180?grayscale&blur=5",
+        "categories": [
+            "Programación multimedia",
+            "Administración de empresas",
+            "Programación web"
+        ],
+        "services": [
+            "Dispositivos móviles",
+            "Go",
+            "Java",
+            "IOs",
+            "Administrativo",
+            "Café",
+            "Finanzas",
+            "Personal",
+            "Diseño",
+            "React",
+            "Ruby on Rails",
+            "Vue",
+            "Backend",
+            "Tailwind",
+            ".NET",
+            "Bootstrap",
+            "express",
+            "Java Spring",
+            "Laravel",
+            "Django",
+            "Frontend"
+        ],
+        "openings": [
+            {
+                "year": 2020,
+                "count": 10
+            },
+            {
+                "year": 2021,
+                "count": 7
+            },
+            {
+                "year": 2022,
+                "count": 1
+            },
+            {
+                "year": 2023,
+                "count": 5
+            },
+            {
+                "year": 2024,
+                "count": 10
+            }
+        ],
+        "score": {
+            "teacher": 53.78,
+            "student": 23.38
+        }
+    }
+]
