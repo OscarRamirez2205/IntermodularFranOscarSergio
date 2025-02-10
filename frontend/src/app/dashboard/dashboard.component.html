@@ -1,0 +1,26 @@
+<div class="row mt-4">
+    <div class="row">
+        <div class="col-3">
+            <app-filters></app-filters>
+        </div>
+        <div class="offset-1 col-8">
+            <div>
+                <label for="orden">Orden:</label>
+                <select id="orden" (change)="cambiarOrden($any($event.target).value)">
+                    <option value="ascendente" selected>Ascendente</option>
+                    <option value="descendente">Descendente</option>
+                </select>
+            
+                <label for="factor">Factor:</label>
+                <select id="factor" (change)="cambiarFactorOrden($any($event.target).value)">
+                    <option value="nombre" selected>Nombre</option>
+                    <option value="score">Puntuación</option>
+                    <option value="vacantes">Vacantes</option>
+                </select>
+                </div>                     
+            <hr>
+            <app-body></app-body>
+        </div>
+    </div>
+</div>
+

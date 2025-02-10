@@ -1,0 +1,73 @@
+<form class="row g-3 offset-1" novalidate (reset)="onReset($event)">
+    <div class="input-group">
+        <span class="input-group-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+        </span>
+        <input type="text" caracteresRestringidos="*@#&quot;" name="nombre" class="form-control" 
+               placeholder="Buscar..." (input)="onInputChange($event)" />
+    </div>
+    <div class="input-group">
+        <div class="col-md-12">
+            <label for="provincias" class="form-label">Provincia</label>
+            <select class="form-select" name="provincia" id="provincias" (change)="onProvinciaSelected($event)">
+                @for (region of empresaService.getRegiones(); track region) {
+                <option [value]="region.name">{{region.name}}</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="input-group">
+        <div class="col-md-12">
+            <label for="localidad" class="form-label">Localidad</label>
+            <select class="form-select" name="localidad" id="localidad" (change)="onInputChange($event)">
+                <option value="" selected disabled></option>
+                @for (ciudad of empresaService.getCiudades(); track ciudad) {
+                <option [value]="ciudad">{{ciudad}}</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="input-group">
+        <div class="col-md-12">
+            <label for="vacantes" class="form-label">Espacios Vacantes</label>
+            <select class="form-select" id="vacantes" name="vacante" (change)="onInputChange($event)">
+                <option value="" selected disabled></option>
+                @for (vacante of vacantesA; track vacante) {
+                <option [value]="vacante">{{vacante}}</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="input-group">
+        <div class="col-md-12">
+            <label for="categoria" class="form-label">Categoria</label>
+            <select class="form-select" name="Categoria" id="Categoria" (change)="onCategoriaChange($event)">
+                @for (categoria of empresaService.getCategorias(); track categoria) {
+                <option [value]="categoria.name">{{categoria.name}}</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="input-group">
+        <div class="col-md-12">
+            <label for="servicio" class="form-label">Servicio</label>
+            <select class="form-select" name="servicio" id="servicio" (change)="onInputChange($event)">
+                <option value="" selected disabled></option>
+                @for (servicio of empresaService.getServicios(); track servicio) {
+                <option [value]="servicio.name">{{servicio.name}}</option>
+                }
+            </select>
+        </div>
+    </div>
+    <div class="d-grid gap-2 col-9 mx-auto">
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <button type="reset" name="restablecer" class="btn btn-outline-primary">
+                    Restablecer Filtros
+                </button>
+            </div>
+        </div>
+    </div>
+</form>

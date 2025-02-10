@@ -25,10 +25,10 @@ class Usuario extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
-        'password',
-        'dni',
-        'rol'
+        'nombre',
+        'NIF',
+        'email',
+        'password'
     ];
 
     /**
