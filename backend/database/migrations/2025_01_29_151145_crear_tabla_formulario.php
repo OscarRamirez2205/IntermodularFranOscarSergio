@@ -16,7 +16,11 @@ return new class extends Migration
             $tabla->string('nombre');
             $tabla->string('definicion');
             $tabla->string('tipo');
+            $tabla->unsignedBigInteger('id_token');
             $tabla->timestamps();
+
+            $tabla->foreign('id_token')->references('id')->on('tokens')->onDelete('cascade');
+            
         });
     }
 
