@@ -17,12 +17,12 @@ return new class extends Migration
             $tabla->string('NIF')->unique();
             $tabla->string('email');
             $tabla->string('password');
-            $tabla->string('centro');
-            $tabla->string('empresa');
+            $tabla->unsignedBigInteger('id_centro');
+            $tabla->unsignedBigInteger('id_empresa');
             $tabla->timestamps();
 
-            $tabla->foreign('centro')->references('id')->on('centros')->onDelete('cascade');
-            $tabla->foreign('empresa')->references('id')->on('empresas')->onDelete('cascade');
+            $tabla->foreign('id_centro')->references('id')->on('centros')->onDelete('cascade');
+            $tabla->foreign('id_empresa')->references('id')->on('empresas')->onDelete('cascade');
         });
     }
 
