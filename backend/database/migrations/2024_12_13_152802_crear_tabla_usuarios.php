@@ -17,8 +17,8 @@ return new class extends Migration
             $tabla->string('NIF')->unique();
             $tabla->string('email');
             $tabla->string('password');
-            $tabla->unsignedBigInteger('id_centro');
-            $tabla->unsignedBigInteger('id_empresa');
+            $tabla->unsignedBigInteger('id_centro')->nullable();
+            $tabla->unsignedBigInteger('id_empresa')->nullable();
             $tabla->timestamps();
 
             $tabla->foreign('id_centro')->references('id')->on('centros')->onDelete('cascade');
