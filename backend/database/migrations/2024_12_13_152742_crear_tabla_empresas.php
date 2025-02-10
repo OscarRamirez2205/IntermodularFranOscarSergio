@@ -25,7 +25,7 @@ return new class extends Migration
             $tabla->float('direccion_log');
             $tabla->string('provincia');
             $tabla->string('poblacion');
-            $tabla->int('vacantes');
+            $tabla->integer('vacantes');
             $tabla->string('horario_inicio');
             $tabla->string('horario_fin');
             $tabla->string('password');
