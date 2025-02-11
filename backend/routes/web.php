@@ -8,7 +8,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/usuarios', [UsuarioController::class, 'index']);
+Route::resource('usuarios', UsuarioController::class);
 
 Route::get('/login', [LoginController::class, "showLogin"])->name('login');
 

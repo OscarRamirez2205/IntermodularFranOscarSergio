@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Usuario;
+use App\Models\Centro;
+use App\Models\Empresa;
 
 class UsuarioController extends Controller
 {
@@ -23,18 +25,35 @@ class UsuarioController extends Controller
         return Usuario::create($request->all());
     }
 
+    public function edit(Usuario $usuario)
+    {
+        $centros = Centro::all();
+        $empresas = Empresa::all();
+        return view('formUsu', compact(['usuario', 'centros', 'empresas']));
+    }
+
     public function update(Request $request, $id)
     {
         $usuario = Usuario::findOrFail($id);
-        $usuario->update($request->all());
-        return $usuario;
+        $usuario->nombre = $request->nombre;
+        $usuario->NIF = $request->NIF;
+        $usuario->email = $request->email;
+        $usuario->id_centro = $request->centros;
+        $usuario->id_empresa = $request->empresas;
+        $usuario->save();
+
+            $usuario->roles()->sync($request->roles); // Aquí se llama a la relación correctamente
+        
+
+        return redirect()->route('usuarios.index')->with('success', 'Usuario actualizado correctamente');
     }
 
-    public function delete(Request $request, $id)
+    public function destroy($id)
     {
         $usuario = Usuario::findOrFail($id);
         $usuario->delete();
-        return 204;
+
+        return redirect()->route('usuarios.index')->with('success', 'Usuario eliminado correctamente');
     }
 
 }

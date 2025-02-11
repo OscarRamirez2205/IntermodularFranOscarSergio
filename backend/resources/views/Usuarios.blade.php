@@ -29,6 +29,14 @@
                                 <span class="badge bg-primary">{{ $rol->nombre }}</span>
                             @endforeach
                         </td>
+                        <td>
+                            <a href="{{ route('usuarios.edit', $usuario) }}" class="btn btn-warning">Editar</a>
+                            <form action="{{ route('usuarios.destroy', $usuario) }}" method="POST" class="d-inline">
+                                @method('DELETE')
+                                @csrf
+                                <button type="submit" class="btn btn-danger">Eliminar</button>
+                            </form>
+                        </td>
                     </tr>
                 @endforeach
             </tbody>
