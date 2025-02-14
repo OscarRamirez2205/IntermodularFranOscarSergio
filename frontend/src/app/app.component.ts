@@ -12,5 +12,5 @@ import { NavbarComponent } from './navbar/navbar.component';
   `
 })
 export class AppComponent {
-  title = 't12A4';
+  title = 'Intermodular';
 }
