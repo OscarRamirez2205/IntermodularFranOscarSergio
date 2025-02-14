@@ -21,7 +21,13 @@ class FormularioController extends Controller
 
     public function store(Request $request)
     {
-        return Formulario::create($request->all());
+        $formulario = new Formulario();
+        $formulario->nombre = $request->get('nombre');
+        $formulario->descripcion = $request->get('descripcion');
+        $formulario->tipo = $request->get('tipo');
+        $formulario->save();
+        
+        return view('/')->with('success', 'Formulario creado correctamente');
     }
 
     public function update(Request $request, $id)
@@ -31,7 +37,7 @@ class FormularioController extends Controller
         return $formulario;
     }
 
-    public function delete(Request $request, $id)
+    public function delete($id)
     {
         $formulario = Formulario::findOrFail($id);
         $formulario->delete();

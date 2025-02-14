@@ -10,6 +10,8 @@ import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
   styleUrl: './form-component.component.scss',
 })
 export class FormComponentComponent implements OnInit {
+
+  //Insertar token a input
   form: FormGroup;
   token: string | null = '';
 

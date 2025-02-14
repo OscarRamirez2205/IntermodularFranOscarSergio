@@ -30,7 +30,7 @@ class PreguntasController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**

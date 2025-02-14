@@ -30,7 +30,7 @@ import { AbstractAuthService } from '../services/abstarct-auth.service';
                 <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" routerLink="/create-form" routerLinkActive="active">Crear Formulario</a>
+                  <a class="nav-link" routerLink="/solicitud" routerLinkActive="active">Solicitar Alumnos</a>
               </li>
             }
             @if (isAdmin()) {
