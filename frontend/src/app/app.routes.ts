@@ -11,6 +11,7 @@ import { CreateCompanyComponent } from './create-company/create-company.componen
 import { LandingComponent } from './landing/landing.component';
 import { adminMatchGuard, businessMatchGuard, studentMatchGuard, teacherMatchGuard, teacherOrAdminMatchGuard } from './gaurds/role.guard';
 import { FormComponentComponent } from './form-component/form-component.component';
+import { CreateFormComponent } from './create-form/create-form.component';
 
 export const routes: Routes = [
   {path: 'profile', canActivate: [authGuard],children: [
@@ -23,6 +24,7 @@ export const routes: Routes = [
   {path: 'company/:id', component: CompanyDetailComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: 'create-company', component: CreateCompanyComponent, canActivate: [authGuard], canMatch: [adminMatchGuard]},
   {path: 'form', component: FormComponentComponent},
+  {path: 'create-form', component: CreateFormComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: '', component: LandingComponent},
   {path: '**', component: RouteNotFoundComponent}
 ];

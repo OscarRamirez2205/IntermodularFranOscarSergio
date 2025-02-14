@@ -1,17 +1,18 @@
 <div class="container mt-4">
-    <form action="post" class="p-4 border rounded bg-light shadow">
+    <form [formGroup]="form" (ngSubmit)="onSubmit($event)" class="p-4 border rounded bg-light shadow">
+        <input type="hidden" formControlName="token">
         <div class="mb-3">
             <span class="fw-bold">Pregunta random por que sí</span>
             <span class="clasificacion">
-                <input id="radio1_1" type="radio" name="estrellas1" value="5">
+                <input id="radio1_1" type="radio" name="pregunta1" value="5">
                 <label for="radio1_1">★</label>
-                <input id="radio2_1" type="radio" name="estrellas1" value="4">
+                <input id="radio2_1" type="radio" name="pregunta1" value="4">
                 <label for="radio2_1">★</label>
-                <input id="radio3_1" type="radio" name="estrellas1" value="3">
+                <input id="radio3_1" type="radio" name="pregunta1" value="3">
                 <label for="radio3_1">★</label>
-                <input id="radio4_1" type="radio" name="estrellas1" value="2">
+                <input id="radio4_1" type="radio" name="pregunta1" value="2">
                 <label for="radio4_1">★</label>
-                <input id="radio5_1" type="radio" name="estrellas1" value="1">
+                <input id="radio5_1" type="radio" name="pregunta1" value="1">
                 <label for="radio5_1">★</label>
             </span>
         </div>
@@ -19,15 +20,15 @@
         <div class="mb-3">
             <span class="fw-bold">Pregunta random por que sí</span>
             <span class="clasificacion">
-                <input id="radio1_2" type="radio" name="estrellas2" value="5">
+                <input id="radio1_2" type="radio" name="pregunta2" value="5">
                 <label for="radio1_2">★</label>
-                <input id="radio2_2" type="radio" name="estrellas2" value="4">
+                <input id="radio2_2" type="radio" name="pregunta2" value="4">
                 <label for="radio2_2">★</label>
-                <input id="radio3_2" type="radio" name="estrellas2" value="3">
+                <input id="radio3_2" type="radio" name="pregunta2" value="3">
                 <label for="radio3_2">★</label>
-                <input id="radio4_2" type="radio" name="estrellas2" value="2">
+                <input id="radio4_2" type="radio" name="pregunta2" value="2">
                 <label for="radio4_2">★</label>
-                <input id="radio5_2" type="radio" name="estrellas2" value="1">
+                <input id="radio5_2" type="radio" name="pregunta2" value="1">
                 <label for="radio5_2">★</label>
             </span>
         </div>

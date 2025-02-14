@@ -29,7 +29,7 @@ class UsuarioController extends Controller
         return $usuario;
     }
 
-    public function delete(Request $request, $id)
+    public function delete($id)
     {
         $usuario = Usuario::findOrFail($id);
         $usuario->delete();
