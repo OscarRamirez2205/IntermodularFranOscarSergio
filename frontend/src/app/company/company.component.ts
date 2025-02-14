@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Empresa } from '../../../interfaces/Empresa';
+import { Empresa } from '../types';
 import { Router } from '@angular/router';
 
 @Component({

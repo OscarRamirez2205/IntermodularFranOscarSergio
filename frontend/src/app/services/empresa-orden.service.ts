@@ -1,8 +1,9 @@
 import { Injectable, computed, signal } from '@angular/core';
-import { Company, Filtros, Region, Category, Service } from '../types';
+import { Company, Filtros, Region, Category, Service, Preguntas } from '../types';
 import { HttpCompaniesService } from './http-companies.service';
 import { HttpCategoriesService } from './http-categories.service';
 import { HttpRegionsService } from './http-regions.service';
+import { HttpPreguntasService } from './http-preguntas.service';
 
 @Injectable({
   providedIn: 'root'
@@ -13,6 +14,7 @@ export class EmpresaFiltrarOrdenarService {
   private categoriasSignal = signal<Category[]>([]);
   private serviciosSignal = signal<Service[]>([]);
   private ciudadesSignal = signal<string[]>([]);
+  private preguntasSignal = signal<Preguntas[]>([]);
 
   private filtrosSignal = signal<Filtros>({
     nombre: '',
@@ -29,7 +31,8 @@ export class EmpresaFiltrarOrdenarService {
   constructor(
     private companiesService: HttpCompaniesService,
     private categoriesService: HttpCategoriesService,
-    private regionsService: HttpRegionsService
+    private regionsService: HttpRegionsService,
+    private preguntasService: HttpPreguntasService
   ) {
     this.cargarDatos();
   }
@@ -59,6 +62,11 @@ export class EmpresaFiltrarOrdenarService {
       },
       error: (error) => console.error('Error cargando categorías:', error)
     });
+
+    this.preguntasService.getPreguntas().subscribe({
+      next: (preguntas) => this.preguntasSignal.set(preguntas),
+      error: (error) => console.error('Error cargando preguntas: ', error)
+    })
   }
 
   cargarCiudades(regionId: string) {
@@ -74,6 +82,8 @@ export class EmpresaFiltrarOrdenarService {
       error: (error) => console.error('Error cargando servicios:', error)
     });
   }
+
+  
 
   // Getters para los datos
   getRegiones = computed(() => this.regionesSignal());
