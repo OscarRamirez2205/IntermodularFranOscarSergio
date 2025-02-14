@@ -6,12 +6,13 @@ use Illuminate\Http\Request;
 use App\Models\Usuario;
 use App\Models\Centro;
 use App\Models\Empresa;
+use Illuminate\Support\Facades\Hash;
 
 class UsuarioController extends Controller
 {
     public function index()
     {
-        $usuarios = Usuario::paginate(20);
+        $usuarios = Usuario::paginate(10);
         return view('usuarios', compact('usuarios'));
     }
 
@@ -38,12 +39,15 @@ class UsuarioController extends Controller
         $usuario->nombre = $request->nombre;
         $usuario->NIF = $request->NIF;
         $usuario->email = $request->email;
+        if ($request->filled('password')) {
+            $usuario->password = Hash::make($request->password);
+        }
         $usuario->id_centro = $request->centros;
         $usuario->id_empresa = $request->empresas;
         $usuario->save();
 
-            $usuario->roles()->sync($request->roles); // Aquí se llama a la relación correctamente
-        
+        $usuario->roles()->sync($request->roles);
+
 
         return redirect()->route('usuarios.index')->with('success', 'Usuario actualizado correctamente');
     }

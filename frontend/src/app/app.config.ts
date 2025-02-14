@@ -13,8 +13,7 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideRouter(routes),
     provideHttpClient(withInterceptors([authInterceptor])),
-    { provide: API_URL, useValue: 'http://localhost:3000' },
-    { provide: AbstractAuthService, useClass: FakeAuthService },
-    
+    { provide: API_URL, useValue: 'http://localhost:8000' },
+
   ]
 };
