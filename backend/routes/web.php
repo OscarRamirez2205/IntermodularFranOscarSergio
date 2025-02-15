@@ -22,7 +22,6 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::post('/login', [LoginController::class, 'login']);
 
-Route::get('/logout', [LoginController::class, 'logout']);
 
 Route::get('/formulario', [FormularioController::class, 'index'])->name('formulario');
 

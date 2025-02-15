@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{route('usuarios')}}">Usuarios</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{route('formulario')}}">Formularios</a>
+                </li>
             </ul>
             <ul class="navbar-nav ms-auto"> <!-- Aquí se alinean los items a la derecha -->
                 <li class="nav-item">
