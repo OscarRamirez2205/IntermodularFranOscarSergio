@@ -10,6 +10,8 @@ import { CompanyDetailComponent } from './company-detail/company-detail.componen
 import { CreateCompanyComponent } from './create-company/create-company.component';
 import { LandingComponent } from './landing/landing.component';
 import { adminMatchGuard, businessMatchGuard, studentMatchGuard, teacherMatchGuard, teacherOrAdminMatchGuard } from './gaurds/role.guard';
+import { FormComponentComponent } from './form-component/form-component.component';
+import { SolicitudComponent } from './solicitud/solicitud.component';
 
 export const routes: Routes = [
   {path: 'profile', canActivate: [authGuard],children: [
@@ -21,6 +23,8 @@ export const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: 'company/:id', component: CompanyDetailComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: 'create-company', component: CreateCompanyComponent, canActivate: [authGuard], canMatch: [adminMatchGuard]},
+  {path: 'form', component: FormComponentComponent},
+  {path: 'solicitud', component: SolicitudComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: '', component: LandingComponent},
   {path: '**', component: RouteNotFoundComponent}
 ];

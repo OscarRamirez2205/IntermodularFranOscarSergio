@@ -1,0 +1,22 @@
+.clasificacion {
+    direction: rtl;
+    display: flex;
+    gap: 5px;
+    font-size: 24px;
+}
+
+.clasificacion input {
+    display: none;
+}
+
+.clasificacion label {
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.clasificacion label:hover,
+.clasificacion label:hover ~ label,
+.clasificacion input:checked ~ label {
+    color: gold;
+}
