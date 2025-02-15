@@ -13,12 +13,20 @@ export class AuthService {
 
    }
 
-  login(credentials: any): Observable<any> {
+   login(credentials: { email: string; password: string }): Observable<any> {
+    console.log(credentials);
+
     return this.http.post(`${this.apiUrl}/api/login`, credentials);
   }
 
-  logout(): Observable<any> {
-    return this.http.post(`${this.apiUrl}/api/logout`, null);
+  logout() : void{
+    // Eliminamos los items del localStorage
+    localStorage.clear();
+  }
+
+
+  saveToken(token: string): void {
+    localStorage.setItem('token', token);
   }
 
   register(user: any): Observable<any> {
@@ -27,7 +35,7 @@ export class AuthService {
 
   isAdmin(): boolean {
     const roles = JSON.parse(localStorage.getItem('roles') || '[]');
-    return roles.includes('admin');
+    return roles.includes('Administrador');
   }
 }
 
