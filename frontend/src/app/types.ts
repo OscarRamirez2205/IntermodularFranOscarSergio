@@ -119,7 +119,11 @@ export interface Filtros {
     categoria: string;
     servicio: string;
   }
-
+export interface Preguntas{
+    titulo: string;
+    tipo: string;
+    order: number;
+}
 
 
 

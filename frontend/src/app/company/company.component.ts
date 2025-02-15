@@ -16,4 +16,9 @@ export class CompanyComponent {
   onContact() {
     this.router.navigate(['/company', this.company.id]);
   }
+
+  onForm(){
+    this.router.navigate(['/create-form', this.company.id]);
+  }
 }
+
