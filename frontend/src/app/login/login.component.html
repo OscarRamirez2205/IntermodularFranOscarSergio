@@ -1,1 +1,14 @@
-<p>login works!</p>
+<div class="login-container">
+  <div class="image-section">
+    <img src="https://static.vecteezy.com/system/resources/previews/002/801/916/non_2x/woman-in-blue-suit-is-smiling-on-white-background-free-photo.jpg" alt="Login Image">
+  </div>
+  <div class="form-section">
+    <form (ngSubmit)="login()" class="login-form">
+      <h2>Bienvenido</h2>
+      <p class="subtitle"><strong>Acceder</strong></p>
+      <input type="email" name="email" [(ngModel)]="credentials.email" placeholder="Email" required>
+      <input type="password" name="password" [(ngModel)]="credentials.password" placeholder="Contraseña" required>
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  </div>
+</div>

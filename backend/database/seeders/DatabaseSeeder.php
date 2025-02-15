@@ -4,7 +4,8 @@ namespace Database\Seeders;
 
 use App\Models\Centro;
 use App\Models\Empresa;
-use App\Models\Usuario;
+use App\Models\User;
+use Illuminate\Support\Facades\DB;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -20,6 +21,18 @@ class DatabaseSeeder extends Seeder
       
         Empresa::factory(10)->create();
         Centro::factory(10)->create();
-        Usuario::factory(50)->create();
+        User::factory(50)->create();
+
+        $usu = DB::table('users')->insert([
+            'nombre' => 'Paco',
+            'NIF' => '64820397A',
+            'email' => 'paco@paco.com',
+            'password' => bcrypt('1234'),
+            'id_centro' => fake()->numberBetween(1, 10),
+            'id_empresa' => fake()->numberBetween(1, 10),
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+
     }
 }

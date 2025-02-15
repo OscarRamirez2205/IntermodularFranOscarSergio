@@ -10,6 +10,8 @@ import { CompanyDetailComponent } from './company-detail/company-detail.componen
 import { CreateCompanyComponent } from './create-company/create-company.component';
 import { LandingComponent } from './landing/landing.component';
 import { adminMatchGuard, businessMatchGuard, studentMatchGuard, teacherMatchGuard, teacherOrAdminMatchGuard } from './gaurds/role.guard';
+import { LogoutGuard } from './logout.guard';
+import { LoginComponent } from './login/login.component';
 import { FormComponentComponent } from './form-component/form-component.component';
 import { SolicitudComponent } from './solicitud/solicitud.component';
 
@@ -26,5 +28,8 @@ export const routes: Routes = [
   {path: 'form', component: FormComponentComponent},
   {path: 'solicitud', component: SolicitudComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: '', component: LandingComponent},
-  {path: '**', component: RouteNotFoundComponent}
+  {path: '**', component: RouteNotFoundComponent},
+
+  { path: 'logout', canActivate: [LogoutGuard], loadComponent: () => import('./login/login.component').then(m => m.LoginComponent) },
+  { path: 'login', redirectTo: '/' },
 ];

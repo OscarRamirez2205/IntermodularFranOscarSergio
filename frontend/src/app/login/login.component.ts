@@ -1,16 +1,14 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../auth-service.service';
 import { Router } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
-  template: `
-    <form (ngSubmit)="login()">
-      <input type="email" name="email" [(ngModel)]="credentials.email">
-      <input type="password" name="password" [(ngModel)]="credentials.password">
-      <button type="submit">Iniciar sesión</button>
-    </form>
-  `
+  imports: [ FormsModule],
+  templateUrl: './login.component.html',
+  styleUrl: './login.component.scss'
 })
 export class LoginComponent {
   credentials = { email: '', password: '' };
@@ -18,22 +16,31 @@ export class LoginComponent {
   constructor(private authService: AuthService, private router: Router) { }
 
   login() {
-    this.authService.login(this.credentials).subscribe(
-      response => {
-        // Guardar datos del usuario y roles en el almacenamiento local
+    console.log(this.credentials);
+
+    this.authService.login(this.credentials).subscribe({
+      next: (response) => {
+        console.log(response);
+
         localStorage.setItem('user', JSON.stringify(response.user));
         localStorage.setItem('roles', JSON.stringify(response.roles));
+        this.authService.saveToken(response.access_token);
 
-        // Redirigir según el rol
+
         if (this.authService.isAdmin()) {
-          window.location.href = '/admin'; // Redirigir a la página de administración en Laravel
+          const email = encodeURIComponent(this.credentials.email);
+          const password = encodeURIComponent(this.credentials.password);
+          console.log(email, password);
+
+          window.location.href = `http://localhost:8000/loginAdmin/?email=${email}&password=${password}`;
         } else {
-          this.router.navigate(['/']); // Redirigir a la página principal en Angular
+          this.router.navigate(['/']);
         }
       },
-      error => {
+      error: (error) => {
         console.error(error);
       }
-    );
+    });
+
   }
 }

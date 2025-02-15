@@ -4,7 +4,9 @@
 @section('contenido')
     <h1 class="text-center">Listado de Usuarios</h1>
     <div class="container">
-        <h1>Lista de Usuarios</h1>
+        <h1>Lista de Usuarios</h1><div class="mb-3">
+            <a href="{{ route('usuarios.create') }}" class="btn btn-success">Añadir Usuario</a>
+        </div>
         <table class="table table-striped">
             <thead>
                 <tr>

@@ -2,12 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\UsuarioController;
 
-Route::post('/login', [AuthController::class, 'login']);
+Route::post('/login', [LoginController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout']);
-Route::post('/register', [AuthController::class, 'register']);
 
-Route::middleware(['auth', 'checkRol:admin'])->group(function () {
-    Route::get('/admin', [UsuarioController::class, 'index']);
+
+Route::middleware(['auth', 'checkRol:Administrador'])->group(function () {
+    Route::get('/', function () {
+        return redirect('/');
+    });
 });
+
