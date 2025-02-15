@@ -20,4 +20,7 @@ class Formulario extends Model
     public function centros() {
         return $this->belongsToMany(Centro::class, 'centro_formulario', 'id_centro', 'id_formulario');
     }
+    public function token(){
+        return $this->hasOne(Token::class);
+    }
 }
