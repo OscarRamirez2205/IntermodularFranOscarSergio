@@ -3,17 +3,29 @@ import { AuthService } from '../auth-service.service';
 import { Router } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-login',
-  imports: [ FormsModule],
+  imports: [ FormsModule, CommonModule,],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
   credentials = { email: '', password: '' };
 
-  constructor(private authService: AuthService, private router: Router) { }
+  constructor(public authService: AuthService, private router: Router) { }
+
+  selectedRole: string = '';
+  selecRol() {
+    if (this.selectedRole) {
+      localStorage.setItem('roles', JSON.stringify([this.selectedRole]));
+      console.log("Selected Role:", this.selectedRole);
+      this.router.navigate(['/dashboard']);
+    } else {
+      alert("No hay rol seleccionado.");
+    }
+  }
 
   login() {
     console.log(this.credentials);

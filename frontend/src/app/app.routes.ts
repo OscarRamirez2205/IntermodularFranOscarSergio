@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
-import { authGuard } from './gaurds/auth.guard';
+//import { authGuard } from './gaurds/auth.guard';
+import { AuthGuard } from './auth-guard.guard';
 import { StudentProfileComponent } from './student-profile/student-profile.component';
 import { TeacherProfileComponent } from './teachers-profile/teacher-profile.component';
 import { BusinessProfileComponent } from './business-profile/business-profile.component';
@@ -14,8 +15,11 @@ import { LogoutGuard } from './logout.guard';
 import { LoginComponent } from './login/login.component';
 import { FormComponentComponent } from './form-component/form-component.component';
 import { SolicitudComponent } from './solicitud/solicitud.component';
+import { AppComponent } from './app.component';
+import { LogoutComponent } from './logout/logout.component';
 
 export const routes: Routes = [
+  /*
   {path: 'profile', canActivate: [authGuard],children: [
       {path: '', component: StudentProfileComponent, canMatch: [studentMatchGuard]},
       {path: '', component: TeacherProfileComponent, canMatch: [teacherMatchGuard]},
@@ -27,9 +31,11 @@ export const routes: Routes = [
   {path: 'create-company', component: CreateCompanyComponent, canActivate: [authGuard], canMatch: [adminMatchGuard]},
   {path: 'form', component: FormComponentComponent},
   {path: 'solicitud', component: SolicitudComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
-  {path: '', component: LandingComponent},
-  {path: '**', component: RouteNotFoundComponent},
+  {path: '', component: LandingComponent},*/
 
-  { path: 'logout', canActivate: [LogoutGuard], loadComponent: () => import('./login/login.component').then(m => m.LoginComponent) },
-  { path: 'login', redirectTo: '/' },
+  { path: '', redirectTo: '/login', pathMatch: 'full'},
+  { path: 'logout', canActivate: [LogoutGuard], component: LogoutComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard], data: {roles: [ 'Tutor']}},
+  //{path: '**', component: RouteNotFoundComponent},
 ];

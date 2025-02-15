@@ -24,6 +24,9 @@ export class AuthService {
     localStorage.clear();
   }
 
+  hayUsuario(): boolean {
+    return localStorage.getItem('user') !== null && localStorage.getItem('roles') !== null && localStorage.getItem('token') !== null;
+  }
 
   saveToken(token: string): void {
     localStorage.setItem('token', token);
@@ -37,6 +40,16 @@ export class AuthService {
     const roles = JSON.parse(localStorage.getItem('roles') || '[]');
     return roles.includes('Administrador');
   }
+
+  moreThanOneRole(): boolean {
+    const roles = JSON.parse(localStorage.getItem('roles') || '[]');
+    return roles.length > 1;
+  }
+
+  getRoles(): string[] {
+    return JSON.parse(localStorage.getItem('roles') || '[]');
+  }
+
 }
 
 
