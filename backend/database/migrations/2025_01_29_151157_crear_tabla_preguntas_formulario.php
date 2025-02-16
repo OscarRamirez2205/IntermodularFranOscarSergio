@@ -11,14 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('preguntaFormulario', function(BluePrint $tabla) {
-            $tabla->id();
-            $tabla->unsignedBigInteger('id_formulario');
-            $tabla->unsignedBigInteger('id_pregunta');
-            $tabla->timestamps();
-
-            $tabla->foreign('id_formulario')->references('id')->on('preguntas')->onDelete('cascade');
-            $tabla->foreign('id_pregunta')->references('id')->on('formularios')->onDelete('cascade');
+        Schema::create('preguntaformulario', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('id_formulario')
+                  ->constrained('formularios')
+                  ->onDelete('cascade');
+            $table->foreignId('id_pregunta')
+                  ->constrained('preguntas')  // Cambiado de 'formularios' a 'preguntas'
+                  ->onDelete('cascade');
+            $table->timestamps();
         });
     }
 
