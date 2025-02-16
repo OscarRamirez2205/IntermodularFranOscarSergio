@@ -14,6 +14,12 @@ class EmpresaController extends Controller
         return view('empresas', ['empresas' => $empresas]);
     }
 
+    public function getEmpresas()
+    {
+        $empresas = Empresa::all();
+        return response()->json($empresas);
+    }
+
     public function create()
     {
         return view('empresas.create');
