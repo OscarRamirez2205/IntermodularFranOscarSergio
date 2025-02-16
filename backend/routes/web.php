@@ -24,8 +24,6 @@ Route::middleware(['auth', 'checkRol:Administrador'])->group(function () {
 
     Route::get('/pregunta/{id}', [PreguntasController::class, 'show']);
 
-    
-// Rutas de empresas
     Route::get('/empresas', [EmpresaController::class, 'index'])->name('empresas.index');
 
     Route::get('/empresas/create', [EmpresaController::class, 'create'])->name('empresas.create');
@@ -39,7 +37,6 @@ Route::middleware(['auth', 'checkRol:Administrador'])->group(function () {
     Route::put('/empresas/{empresa}', [EmpresaController::class, 'update'])->name('empresas.update');
 
     Route::delete('/empresas/{empresa}', [EmpresaController::class, 'destroy'])->name('empresas.destroy');
-
 
 });
 

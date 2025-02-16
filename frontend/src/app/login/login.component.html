@@ -16,7 +16,18 @@
       <select [(ngModel)]="selectedRole" name="selectedRole" id="selectedRole">
         <option *ngFor="let rol of authService.getRoles()" [value]="rol">{{rol}}</option>
       </select>
-      <button type="submit">Elegir Rol</button>
+
+      <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-primary px-4 py-2">
+            Elegir Rol
+        </button>
+        <button type="button" (click)="logout()" class="btn btn-danger btn-sm">
+            Cerrar Sesión
+        </button>
+    </div>
+
+
+
     </form>
   </div>
 </div>
