@@ -18,10 +18,24 @@ export class LoginComponent {
 
   selectedRole: string = '';
   selecRol() {
+
+
     if (this.selectedRole) {
       localStorage.setItem('roles', JSON.stringify([this.selectedRole]));
-      console.log("Selected Role:", this.selectedRole);
+      if (this.authService.isAdmin()) {
+        const email = encodeURIComponent(this.credentials.email);
+        const password = encodeURIComponent(this.credentials.password);
+        console.log(email, password);
+
+        window.location.href = `http://localhost:8000/loginAdmin/?email=${email}&password=${password}`;
+      } else
+      if (this.selectedRole === 'Tutor') {
+        this.router.navigate(['/']);
+      }else if (this.selectedRole === 'Centro') {
       this.router.navigate(['/dashboard']);
+      }else if (this.selectedRole === 'Empresa') {
+        this.router.navigate(['/']);
+      }
     } else {
       alert("No hay rol seleccionado.");
     }
@@ -37,17 +51,6 @@ export class LoginComponent {
         localStorage.setItem('user', JSON.stringify(response.user));
         localStorage.setItem('roles', JSON.stringify(response.roles));
         this.authService.saveToken(response.access_token);
-
-
-        if (this.authService.isAdmin()) {
-          const email = encodeURIComponent(this.credentials.email);
-          const password = encodeURIComponent(this.credentials.password);
-          console.log(email, password);
-
-          window.location.href = `http://localhost:8000/loginAdmin/?email=${email}&password=${password}`;
-        } else {
-          this.router.navigate(['/']);
-        }
       },
       error: (error) => {
         console.error(error);

@@ -35,7 +35,6 @@ class AuthController extends Controller
 
     $frontendUrl = env('FRONTEND_URL', 'http://localhost:4200/logout');
 
-    // Verifica si la solicitud proviene del frontend (Angular)
     if ($request->expectsJson() || $request->hasHeader('X-Requested-With', 'XMLHttpRequest')) {
         return response()->json([
             'message' => 'Sesión cerrada',
@@ -43,7 +42,7 @@ class AuthController extends Controller
         ]);
     }
 
-    return redirect()->to($frontendUrl);
+    return redirect()->away($frontendUrl);
 }
 
 }

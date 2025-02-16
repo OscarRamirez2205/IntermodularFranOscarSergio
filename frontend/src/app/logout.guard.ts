@@ -11,10 +11,7 @@ export class LogoutGuard implements CanActivate {
 
   canActivate(): boolean {
     this.authService.logout();
-    console.log('llega 1');
-
     this.router.navigate(['/']);
-    console.log('llega 2');
 
     return false;
   }

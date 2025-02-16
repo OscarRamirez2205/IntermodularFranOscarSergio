@@ -10,22 +10,21 @@ export class AuthService {
 
   constructor(private http: HttpClient,
     @Inject(API_URL) private apiUrl: string) {
-
    }
 
    login(credentials: { email: string; password: string }): Observable<any> {
     console.log(credentials);
-
     return this.http.post(`${this.apiUrl}/api/login`, credentials);
   }
 
-  logout() : void{
-    // Eliminamos los items del localStorage
+  logout(): void {
     localStorage.clear();
   }
 
   hayUsuario(): boolean {
-    return localStorage.getItem('user') !== null && localStorage.getItem('roles') !== null && localStorage.getItem('token') !== null;
+    return localStorage.getItem('user') !== null &&
+           localStorage.getItem('roles') !== null &&
+           localStorage.getItem('token') !== null;
   }
 
   saveToken(token: string): void {
@@ -49,7 +48,4 @@ export class AuthService {
   getRoles(): string[] {
     return JSON.parse(localStorage.getItem('roles') || '[]');
   }
-
 }
-
-

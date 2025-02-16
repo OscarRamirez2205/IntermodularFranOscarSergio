@@ -14,8 +14,9 @@ class Empresa extends Model
     public function usuarios() {
         return $this->hasMany(User::class);
     }
-    public function categoras() {
-        return $this->belongsToMany(Categoria::class, 'categoriaEmpresa');
+    public function categorias()
+    {
+        return $this->belongsToMany(Categoria::class, 'categoriaEmpresa', 'id_empresa', 'id_categoria');
     }
     public function centros() {
         return $this->belongsToMany(Centro::class, 'centros_empresas');
