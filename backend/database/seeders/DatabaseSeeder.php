@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
         $this->call(preguntasSeeder::class);
       
         Empresa::factory(50)->create();
-        Centro::factory(10)->create();
+        Centro::factory(20)->create();
         User::factory(50)->create();
 
         $usu = DB::table('users')->insert([

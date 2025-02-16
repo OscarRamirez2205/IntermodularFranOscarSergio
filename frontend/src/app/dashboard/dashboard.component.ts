@@ -5,6 +5,7 @@ import { BodyComponent } from '../body/body.component';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { Observable } from 'rxjs';
 import { Empresa } from '../types';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -13,7 +14,8 @@ import { Empresa } from '../types';
   imports: [
     FiltersComponent, 
     BodyComponent,
-    NavbarComponent
+    NavbarComponent,
+    RouterModule
   ],
   standalone: true
 })
