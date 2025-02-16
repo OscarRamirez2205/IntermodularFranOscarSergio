@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
-import { authGuard } from './gaurds/auth.guard';
+//import { authGuard } from './gaurds/auth.guard';
+import { AuthGuard } from './auth-guard.guard';
 import { StudentProfileComponent } from './student-profile/student-profile.component';
 import { TeacherProfileComponent } from './teachers-profile/teacher-profile.component';
 import { BusinessProfileComponent } from './business-profile/business-profile.component';
@@ -10,8 +11,15 @@ import { CompanyDetailComponent } from './company-detail/company-detail.componen
 import { CreateCompanyComponent } from './create-company/create-company.component';
 import { LandingComponent } from './landing/landing.component';
 import { adminMatchGuard, businessMatchGuard, studentMatchGuard, teacherMatchGuard, teacherOrAdminMatchGuard } from './gaurds/role.guard';
+import { LogoutGuard } from './logout.guard';
+import { LoginComponent } from './login/login.component';
+import { FormComponentComponent } from './form-component/form-component.component';
+import { SolicitudComponent } from './solicitud/solicitud.component';
+import { AppComponent } from './app.component';
+import { LogoutComponent } from './logout/logout.component';
 
 export const routes: Routes = [
+  /*
   {path: 'profile', canActivate: [authGuard],children: [
       {path: '', component: StudentProfileComponent, canMatch: [studentMatchGuard]},
       {path: '', component: TeacherProfileComponent, canMatch: [teacherMatchGuard]},
@@ -21,6 +29,15 @@ export const routes: Routes = [
   {path: 'dashboard', component: DashboardComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: 'company/:id', component: CompanyDetailComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
   {path: 'create-company', component: CreateCompanyComponent, canActivate: [authGuard], canMatch: [adminMatchGuard]},
-  {path: '', component: LandingComponent},
-  {path: '**', component: RouteNotFoundComponent}
+  {path: 'form', component: FormComponentComponent},
+  {path: 'solicitud', component: SolicitudComponent, canActivate: [authGuard], canMatch: [teacherOrAdminMatchGuard]},
+  {path: '', component: LandingComponent},*/
+
+  { path: '', redirectTo: '/login', pathMatch: 'full'},
+  { path: 'logoutAdmin', component: LogoutComponent },
+  { path: 'logout', canActivate: [LogoutGuard], component: LogoutComponent },
+  { path: 'login', component: LoginComponent },
+  //aqui teneis un ejemplo de como se puede hacer el routing con roles, en este caso solo el tutor puede acceder al dashboard, ya sabeis que hay que cambiar los roles por los vuestros
+  { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard], data: {roles: [ 'Centro', 'Tutor' ]} },
+  //{path: '**', component: RouteNotFoundComponent},
 ];

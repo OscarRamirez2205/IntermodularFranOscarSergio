@@ -12,7 +12,7 @@ import { AbstractAuthService } from '../services/abstarct-auth.service';
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
       <a class="navbar-brand" routerLink="/">Proyecto intermodular</a>
-      
+
       @if (!isAuthenticated()) {
         <form class="d-flex" (ngSubmit)="onLogin()">
           <input class="form-control me-2" type="text" [(ngModel)]="username" name="username" placeholder="Usuario">
@@ -28,6 +28,9 @@ import { AbstractAuthService } from '../services/abstarct-auth.service';
             @if (showDashboard()) {
               <li class="nav-item">
                 <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" routerLink="/solicitud" routerLinkActive="active">Solicitar Alumnos</a>
               </li>
             }
             @if (isAdmin()) {
@@ -60,7 +63,7 @@ export class NavbarComponent {
   ) {}
 
   isAuthenticated = computed(() => !!this.authService.username());
-  
+
   showDashboard = computed(() => {
     const role = this.authService.role();
     return role === 'teacher' || role === 'admin';

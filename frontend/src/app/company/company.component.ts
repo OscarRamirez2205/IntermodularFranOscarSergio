@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { Empresa } from '../../../interfaces/Empresa';
+import { Empresa } from '../types';
 import { Router } from '@angular/router';
 
 @Component({
@@ -16,4 +16,9 @@ export class CompanyComponent {
   onContact() {
     this.router.navigate(['/company', this.company.id]);
   }
+
+  onForm(){
+    this.router.navigate(['/create-form', this.company.id]);
+  }
 }
+
