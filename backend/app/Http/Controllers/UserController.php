@@ -11,11 +11,29 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class UserController extends Controller
 {
-    public function index()
-    {
-        $usuarios = User::paginate(10);
-        return view('usuarios', compact('usuarios'));
+    public function index(Request $request)
+{
+    $query = User::query();
+
+    if ($request->has('rol') && $request->rol != '') {
+        $query->whereHas('roles', function ($query) use ($request) {
+            $query->where('nombre', $request->rol);
+        });
     }
+
+    $query->whereDoesntHave('roles', function ($query) {
+        $query->where('nombre', 'Administrador');
+    });
+
+    $sort = $request->get('sort', 'nombre');
+    $order = $request->get('order', 'asc');
+    $usuarios = $query->orderBy($sort, $order)->paginate(10);
+
+    return view('usuarios', compact('usuarios', 'order', 'sort'));
+}
+
+
+
 
     public function show($id)
     {
@@ -75,20 +93,19 @@ class UserController extends Controller
 }
 
 
-    public function edit(User $User)
+    public function edit(User $usuario)
     {
         $centros = Centro::all();
         $empresas = Empresa::all();
-        return view('formUsu', compact(['User', 'centros', 'empresas']));
+        return view('formUsu', compact(['usuario', 'centros', 'empresas']));
     }
 
     public function update(Request $request, $id)
     {
         $request->validate([
             'nombre' => 'required|string|max:255',
-            'NIF' => 'required|string|max:15|unique:Users,NIF',
-            'email' => 'required|email|unique:Users,email',
-            'password' => 'required|string|min:6',
+            'NIF' => 'required|string|max:15',
+            'email' => 'required|email',
             'centros' => 'required|exists:centros,id',
             'empresas' => 'required|exists:empresas,id',
             'roles' => 'required|array|min:1',

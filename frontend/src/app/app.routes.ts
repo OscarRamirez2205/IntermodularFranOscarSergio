@@ -34,8 +34,10 @@ export const routes: Routes = [
   {path: '', component: LandingComponent},*/
 
   { path: '', redirectTo: '/login', pathMatch: 'full'},
+  { path: 'logoutAdmin', component: LogoutComponent },
   { path: 'logout', canActivate: [LogoutGuard], component: LogoutComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard], data: {roles: [ 'Tutor']}},
+  //aqui teneis un ejemplo de como se puede hacer el routing con roles, en este caso solo el tutor puede acceder al dashboard, ya sabeis que hay que cambiar los roles por los vuestros
+  { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard], data: {roles: [ 'Centro', 'Tutor' ]} },
   //{path: '**', component: RouteNotFoundComponent},
 ];

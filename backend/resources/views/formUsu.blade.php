@@ -12,56 +12,79 @@
 
             <div class="mb-3">
                 <label for="nombre" class="form-label">Nombre</label>
-                <input type="text" class="form-control" name="nombre" placeholder="Nombre" value="{{ $usuario->nombre }}">
+                <input type="text" class="form-control" name="nombre" placeholder="Nombre" value="{{ old('nombre', $usuario->nombre) }}" required>
+                @error('nombre')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="mb-3">
                 <label for="NIF" class="form-label">NIF</label>
-                <input type="text" class="form-control" name="NIF" placeholder="NIF" value="{{ $usuario->NIF }}">
+                <input type="text" class="form-control" name="NIF" placeholder="NIF" value="{{ old('NIF', $usuario->NIF) }}" required>
+                @error('NIF')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" name="email" placeholder="Email" value="{{ $usuario->email }}">
+                <input type="email" class="form-control" name="email" placeholder="Email" value="{{ old('email', $usuario->email) }}" required>
+                @error('email')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="mb-3">
                 <label for="password" class="form-label">Nueva Contraseña</label>
-                <input type="text" class="form-control" name="password" placeholder="Dejar en blanco para no modificar">
+                <input type="password" class="form-control" name="password" placeholder="Dejar en blanco para no modificar">
+                @error('password')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="mb-3">
                 <label for="centros" class="form-label">Centro</label>
                 <select class="form-select" name="centros" id="centros">
+                    <option value="">Selecciona un centro</option>
                     @foreach ($centros as $centro)
-                        <option value="{{ $centro->id }}" @if ($usuario->id_centro == $centro->id) selected @endif>{{ $centro->nombre }}</option>
+                        <option value="{{ $centro->id }}" @if (old('centros', $usuario->id_centro) == $centro->id) selected @endif>{{ $centro->nombre }}</option>
                     @endforeach
                 </select>
+                @error('centros')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="mb-3">
                 <label for="empresas" class="form-label">Empresa</label>
                 <select class="form-select" name="empresas" id="empresas">
+                    <option value="">Selecciona una empresa</option>
                     @foreach ($empresas as $empresa)
-                        <option value="{{ $empresa->id }}" @if ($usuario->id_empresa == $empresa->id) selected @endif>{{ $empresa->nombre }}</option>
+                        <option value="{{ $empresa->id }}" @if (old('empresas', $usuario->id_empresa) == $empresa->id) selected @endif>{{ $empresa->nombre }}</option>
                     @endforeach
                 </select>
+                @error('empresas')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="mb-3">
                 <label class="form-label">Roles</label><br>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" name="roles[]" value="1" {{ in_array(1, $usuario->roles->pluck('id')->toArray()) ? 'checked' : '' }}>
+                    <input type="checkbox" class="form-check-input" name="roles[]" value="1" {{ in_array(1, old('roles', $usuario->roles->pluck('id')->toArray())) ? 'checked' : '' }}>
                     <label class="form-check-label">Centro</label>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" name="roles[]" value="2" {{ in_array(2, $usuario->roles->pluck('id')->toArray()) ? 'checked' : '' }}>
+                    <input type="checkbox" class="form-check-input" name="roles[]" value="2" {{ in_array(2, old('roles', $usuario->roles->pluck('id')->toArray())) ? 'checked' : '' }}>
                     <label class="form-check-label">Empresa</label>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" name="roles[]" value="3" {{ in_array(3, $usuario->roles->pluck('id')->toArray()) ? 'checked' : '' }}>
+                    <input type="checkbox" class="form-check-input" name="roles[]" value="3" {{ in_array(3, old('roles', $usuario->roles->pluck('id')->toArray())) ? 'checked' : '' }}>
                     <label class="form-check-label">Tutor</label>
                 </div>
+                @error('roles')
+                    <div class="text-danger">{{ $message }}</div>
+                @enderror
             </div>
 
             <div class="row">
@@ -69,7 +92,7 @@
                     <button type="submit" class="btn btn-primary w-100">Guardar Cambios</button>
                 </div>
                 <div class="col-md-4">
-                    <a href="{{ route('usuarios.index') }}" class="btn btn-secondary w-100">Cancelar</a>
+                    <a href="{{ route('usuarios') }}" class="btn btn-secondary w-100">Cancelar</a>
                 </div>
             </div>
         </form>
