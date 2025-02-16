@@ -20,8 +20,13 @@ export class LoginComponent {
   selecRol() {
     if (this.selectedRole) {
       localStorage.setItem('roles', JSON.stringify([this.selectedRole]));
-      console.log("Selected Role:", this.selectedRole);
-      this.router.navigate(['/dashboard']);
+      if (this.selectedRole === 'Tutor') {
+        this.router.navigate(['/']);
+      } else if (this.selectedRole === 'Centro') {
+        this.router.navigate(['/dashboard']);
+      } else if (this.selectedRole === 'Empresa') {
+        this.router.navigate(['/']);
+      }
     } else {
       alert("No hay rol seleccionado.");
     }
