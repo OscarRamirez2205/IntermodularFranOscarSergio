@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class PreguntaFormulario extends Model
 {
     use HasFactory;
+    protected $table = 'preguntaformulario';
     protected $fillable = ['id_formulario', 'id_pregunta', 'created_at', 'updated_at'];
 
     
@@ -15,7 +16,8 @@ class PreguntaFormulario extends Model
         return $this->belongsToMany(Formulario::class);
     }
 
-    public function pregunta(){
-        return $this->belongsToMany(Pregunta::class);
+    public function pregunta()
+    {
+        return $this->belongsTo(Pregunta::class, 'id_pregunta');
     }
 }

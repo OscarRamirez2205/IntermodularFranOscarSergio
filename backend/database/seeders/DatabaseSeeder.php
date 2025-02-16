@@ -18,6 +18,8 @@ class DatabaseSeeder extends Seeder
     {
 
         $this->call(preguntasSeeder::class);
+        $this->call(RolSeeder::class);
+        $this->call(RolUserSeeder::class);
       
         Empresa::factory(50)->create();
         Centro::factory(10)->create();

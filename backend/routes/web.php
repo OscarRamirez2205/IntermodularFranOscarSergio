@@ -16,11 +16,31 @@ Route::middleware(['auth', 'checkRol:Administrador'])->group(function () {
     Route::resource('usuarios', UserController::class);
     Route::get('/usuarios', [UserController::class, 'index'])->name('usuarios');
 
+    Route::resource('formularios', FormularioController::class);
+
     Route::get('/formulario', [FormularioController::class, 'index'])->name('formulario');
 
     Route::get('/preguntas', [PreguntasController::class, 'index']);
 
     Route::get('/pregunta/{id}', [PreguntasController::class, 'show']);
+
+    
+// Rutas de empresas
+    Route::get('/empresas', [EmpresaController::class, 'index'])->name('empresas.index');
+
+    Route::get('/empresas/create', [EmpresaController::class, 'create'])->name('empresas.create');
+
+    Route::post('/empresas', [EmpresaController::class, 'store'])->name('empresas.store');
+
+    Route::get('/empresas/{empresa}', [EmpresaController::class, 'show'])->name('empresas.show');
+
+    Route::get('/empresas/{empresa}/edit', [EmpresaController::class, 'edit'])->name('empresas.edit');
+
+    Route::put('/empresas/{empresa}', [EmpresaController::class, 'update'])->name('empresas.update');
+
+    Route::delete('/empresas/{empresa}', [EmpresaController::class, 'destroy'])->name('empresas.destroy');
+
+
 });
 
 Route::withoutMiddleware(['auth', 'checkRol:Administrador'])->group(function () {
@@ -33,27 +53,3 @@ Route::withoutMiddleware(['auth', 'checkRol:Administrador'])->group(function () 
     Route::post('/login', [LoginController::class, 'login']);
 });
 
-<<<<<<< HEAD
-
-=======
-Route::get('/formulario', [FormularioController::class, 'index'])->name('formulario');
-
-Route::get('/preguntas', [PreguntasController::class, 'index']);
-
-Route::get('/pregunta/{id}', [PreguntasController::class, 'show']);
-
-// Rutas de empresas
-Route::get('/empresas', [EmpresaController::class, 'index'])->name('empresas.index');
-
-Route::get('/empresas/create', [EmpresaController::class, 'create'])->name('empresas.create');
-
-Route::post('/empresas', [EmpresaController::class, 'store'])->name('empresas.store');
-
-Route::get('/empresas/{empresa}', [EmpresaController::class, 'show'])->name('empresas.show');
-
-Route::get('/empresas/{empresa}/edit', [EmpresaController::class, 'edit'])->name('empresas.edit');
-
-Route::put('/empresas/{empresa}', [EmpresaController::class, 'update'])->name('empresas.update');
-
-Route::delete('/empresas/{empresa}', [EmpresaController::class, 'destroy'])->name('empresas.destroy');
->>>>>>> bd9219979e173cadd23b51f7451aa52947a0be10

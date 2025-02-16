@@ -12,6 +12,6 @@ class Pregunta extends Model
 
     
     public function formulario() {
-        return $this->belongsToMany(Formulario::class, 'preguntaFormulario', 'id_formulario', 'id_pregunta');
+        return $this->belongsToMany(Formulario::class, 'preguntaformulario', 'id_formulario', 'id_pregunta');
     }
 }
