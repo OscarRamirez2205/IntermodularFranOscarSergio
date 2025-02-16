@@ -41,6 +41,11 @@ export class LoginComponent {
     }
   }
 
+  logout(){
+    this.authService.logout();
+    this.router.navigate(['/']);
+  }
+
   login() {
     console.log(this.credentials);
 
