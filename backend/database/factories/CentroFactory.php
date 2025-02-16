@@ -20,7 +20,7 @@ class CentroFactory extends Factory
         return [
             'nombre' => $this->faker->company(),
             'email' => $this->faker->unique()->safeEmail(),
-            'password' => $this->faker->password(), // Contraseña encriptada
+            'password' => $this->faker->password(),
             'direccion' => $this->faker->address(),
             'telefono' => $this->faker->phoneNumber(),
             'poblacion' => $this->faker->city(),

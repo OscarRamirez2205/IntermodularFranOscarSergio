@@ -38,6 +38,9 @@ class LoginController extends Controller
         $password = $request->query('password');
 
         if(Auth::attempt(['email' => $email, 'password' => $password])){
+            session(['email' => $email]);
+            session(['password' => $password]);
+            session(['rol' => 'Administrador']);
             return redirect()->route("admin");
         }
 
