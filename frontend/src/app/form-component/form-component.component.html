@@ -1,30 +1,27 @@
 <div class="form-container">
-    <div *ngIf="isLoading" class="loading">
-      Cargando formulario...
-    </div>
-  
-    <form *ngIf="!isLoading" [formGroup]="form" (ngSubmit)="onSubmit($event)">
-      <div *ngFor="let question of questions" class="question-container">
+  <div *ngIf="isLoading">
+    Cargando preguntas...
+  </div>
+
+  <form *ngIf="!isLoading && form" [formGroup]="form" (ngSubmit)="onSubmit($event)">
+    <div *ngFor="let question of questions" class="question-container">
+      <div *ngIf="isStarQuestion(question.type)">
         <label>{{ question.question }}</label>
-        
-        <div *ngIf="isStarQuestion(question.type)" class="star-rating">
-          <span 
-            *ngFor="let star of [1,2,3,4,5]" 
-            class="star"
-            [class.selected]="form.get('question_' + question.id)?.value >= star"
-            (click)="onStarSelect(question.id, star)">
-            ★
+        <div class="stars">
+          <span *ngFor="let star of [1,2,3,4,5]" 
+                (click)="onStarSelect(question.id, star)"
+                [class.selected]="form.get('question_' + question.id)?.value >= star">
+            ⭐
           </span>
         </div>
-  
-        <textarea 
-          *ngIf="isTextareaQuestion(question.type)"
-          [formControlName]="'question_' + question.id"
-          rows="4"
-          placeholder="Escribe tu respuesta aquí...">
-        </textarea>
       </div>
-  
-      <button type="submit" [disabled]="!form.valid">Enviar</button>
-    </form>
-  </div>
+
+      <div *ngIf="isTextareaQuestion(question.type)">
+        <label>{{ question.question }}</label>
+        <textarea [formControlName]="'question_' + question.id"></textarea>
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="!form.valid">Enviar</button>
+  </form>
+</div>

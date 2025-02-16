@@ -9,6 +9,8 @@ use App\Models\Formulario;
 use App\Models\PreguntaFormulario;
 use App\Models\Token;
 use App\Models\Pregunta;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Log;
 
 class FormularioController extends Controller
 {
@@ -68,7 +70,7 @@ class FormularioController extends Controller
             $pregunta_formulario->id_pregunta = $pregunta['id'];
             $pregunta_formulario->save();
         }
-        $empresas = Empresa::all();
+        $empresas = Empresa::paginate(10);
         return view('/empresas', compact(['empresas', 'token', 'token_a']))->with('success', 'Formularios creados correctamente');
     }
 
@@ -84,5 +86,69 @@ class FormularioController extends Controller
         $formulario = Formulario::findOrFail($id);
         $formulario->delete();
         return 204;
+    }
+
+    public function getPreguntasByToken($token)
+    {
+        Log::info('Token recibido:', ['token' => $token]);
+
+        try {
+            // 1. Primero verificamos si el formulario existe
+            $formulario = DB::table('formularios')
+                ->where('id_token', $token)
+                ->first();
+
+            if (!$formulario) {
+                Log::warning('Formulario no encontrado:', ['token' => $token]);
+                return response()->json([
+                    'message' => 'Formulario no encontrado',
+                    'token' => $token
+                ], 404);
+            }
+
+            Log::info('Formulario encontrado:', ['formulario_id' => $formulario->id]);
+
+            // 2. Obtenemos las preguntas
+            $preguntas = DB::table('preguntas AS p')
+                ->join('preguntaformulario AS pf', 'p.id', '=', 'pf.id_pregunta')
+                ->join('formularios AS f', 'pf.id_formulario', '=', 'f.id')
+                ->where('f.id', $formulario->id) // Cambiado para usar el ID del formulario
+                ->select(
+                    'p.id',
+                    'p.pregunta as question',
+                    'p.tipo as type',
+                    'pf.id as pregunta_formulario_id'
+                )
+                ->get();
+
+            Log::info('Consulta SQL:', [
+                'query' => DB::getQueryLog(),
+                'numero_preguntas' => $preguntas->count()
+            ]);
+
+            if ($preguntas->isEmpty()) {
+                Log::warning('No se encontraron preguntas para el formulario');
+                return response()->json([
+                    'message' => 'No hay preguntas asociadas a este formulario'
+                ], 404);
+            }
+
+            return response()->json([
+                'status' => 'success',
+                'data' => $preguntas
+            ], 200);
+
+        } catch (\Exception $e) {
+            Log::error('Error en getPreguntasByToken:', [
+                'error' => $e->getMessage(),
+                'line' => $e->getLine(),
+                'file' => $e->getFile()
+            ]);
+
+            return response()->json([
+                'message' => 'Error al obtener las preguntas',
+                'error' => $e->getMessage()
+            ], 500);
+        }
     }
 }

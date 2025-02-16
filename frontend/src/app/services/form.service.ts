@@ -1,17 +1,27 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { FormQuestion } from '../form-component/form-component.component';
+import { FormQuestion } from '../interfaces/form-question.interface';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FormService {
-  private apiUrl = 'TU_URL_API'; // Reemplaza con la URL de tu API
+  private apiUrl = environment.apiUrl;
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+    console.log('API URL:', this.apiUrl); // Debug
+  }
 
-  getFormQuestions(token: string | null): Observable<FormQuestion[]> {
-    return this.http.get<FormQuestion[]>(`${this.apiUrl}/forms/${token}`);
+  getFormQuestions(token: string | null) {
+    if (!token) {
+      console.error('Token no proporcionado');
+      return;
+    }
+    
+    const url = `${this.apiUrl}/form/preguntas/${token}`;
+    console.log('Realizando petición a:', url); // Debug
+    
+    return this.http.get<FormQuestion[]>(url);
   }
 }

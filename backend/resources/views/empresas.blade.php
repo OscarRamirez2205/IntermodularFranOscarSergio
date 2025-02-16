@@ -15,8 +15,8 @@
         <div class="alert alert-info alert-dismissible fade show mx-3 mt-3" role="alert">
             <i class="bi bi-info-circle-fill me-2"></i>
             <strong>Formularios creados</strong><br>
-            <span class="ms-3">Formulario Empresa: localhost:4200/form?token={{ $token }}</span><br>
-            <span class="ms-3">Formulario Alumno: localhost:4200/form?token={{ $token_a }}</span>
+            <span class="ms-3">Formulario Empresa: localhost:4200/form?token={{ $token->token }}</span><br>
+            <span class="ms-3">Formulario Alumno: localhost:4200/form?token={{ $token_a->token }}</span>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     @endisset
