@@ -70,11 +70,17 @@
                 
                 <div class="mt-4">
                     <a href="{{ route('empresas.edit', $empresa) }}" class="btn btn-warning">Editar</a>
+                    <form action="{{ route('formularios.store') }}" method="POST" class="d-inline">
+                        @csrf
+                        <input type="hidden" name="nombre" value="{{ explode(',', $empresa->nombre)[0] }}">
+                        <button type="submit" class="btn btn-primary" onclick="return confirm('¿Quieres crear los formularios para esta empresa?')">Crear formulario</button>
+                    </form>
                     <form action="{{ route('empresas.destroy', $empresa) }}" method="POST" class="d-inline">
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-danger" onclick="return confirm('¿Estás seguro de que deseas eliminar esta empresa?')">Eliminar</button>
                     </form>
+                    
                     <a href="{{ route('empresas.index') }}" class="btn btn-secondary">Volver al listado</a>
                 </div>
             </div>

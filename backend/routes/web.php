@@ -17,6 +17,8 @@ Route::middleware(['auth', 'checkRol:Administrador'])->group(function () {
     Route::resource('usuarios', UserController::class);
     Route::get('/usuarios', [UserController::class, 'index'])->name('usuarios');
 
+    Route::resource('formularios', FormularioController::class);
+
     Route::get('/formulario', [FormularioController::class, 'index'])->name('formulario');
 
     Route::get('/preguntas', [PreguntasController::class, 'index']);
@@ -50,6 +52,7 @@ Route::middleware(['auth', 'checkRol:Administrador'])->group(function () {
     Route::put('/centros/{centro}', [CentroController::class, 'update'])->name('centros.update');
 
     Route::delete('/centros/{centro}', [CentroController::class, 'destroy'])->name('centros.destroy');
+
 });
 
 Route::withoutMiddleware(['auth', 'checkRol:Administrador'])->group(function () {
@@ -61,5 +64,4 @@ Route::withoutMiddleware(['auth', 'checkRol:Administrador'])->group(function () 
 
     Route::post('/login', [LoginController::class, 'login']);
 });
-
 

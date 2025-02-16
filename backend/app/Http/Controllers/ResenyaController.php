@@ -31,18 +31,20 @@ class ResenyaController extends Controller
      */
     public function store(Request $request)
     {
-        $formulario = PreguntaFormulario::all()->where('id_formulario', $request->get('id_formulario'));
-        $num = 1;
-        foreach($formulario as $preguntas){
-            $valoracion = 'valoracion_'. $num;
+        // Obtener todas las preguntas del formulario específico
+        $formulario = PreguntaFormulario::where('id_formulario', $request->id_formulario)->get();
+        
+        foreach($formulario as $index => $pregunta){
+            $valoracion = 'valoracion_' . ($index + 1);
+            
             $resenya = new Resenya();
-            $resenya->fecha_resena = Date('dd/mm/YYYY');
-            $resenya->valoracion = $request->get($valoracion);
-            $resenya->id_pregunta_formulario = $preguntas->id;
+            $resenya->fecha_resena = now(); 
+            $resenya->valoracion = $request->$valoracion;
+            $resenya->id_pregunta_formulario = $pregunta->id;
             $resenya->save();
-            $num++;
         }
         
+        return response()->json(['message' => 'Reseñas guardadas correctamente'], 201);
     }
 
     /**
